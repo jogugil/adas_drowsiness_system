@@ -273,17 +273,30 @@ Nota: En los entornos 3 y 4 que se utiliza bluetooth hay que configurar el puert
 
 **INTEGRAR DLIB en la PYNQZ2 unbuntu 24.04, Python 3.10, onnx y sin tener cuda**
 (Disponer una SD de almenos 64G)
+
+
     1. Crearte 10 G de swap para poder tener en la compleción.
+    
      1.a) 
+     
             sudo su
+            
             apt-get update && apt-get upgrade
+            
             shutdown -r now
+            
      1.b) 
+     
            sudo su
+           
            cd /
+           
            dd if=/dev/zero of=swapfile bs=1M count=10000
+           
            mkswap swapfile
+           
            swapon swapfile
+           
 
          1.c)
                   nano /etc/fstab   /swapfile none swap sw 0 0

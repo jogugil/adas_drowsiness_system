@@ -169,7 +169,17 @@ En PYNQ-SYSTEMS:
            |
            \users\
            
- (**) shape_predictor_68_face_landmarks.dat . Se necesita buscarlo por internet y descrgarlo, colocandolo en el subdirectorio model         
+ (**) shape_predictor_68_face_landmarks.dat . Se necesita buscarlo por internet y descrgarlo, colocandolo en el subdirectorio model   
+ 
+ 
+ Actuadores y sensores utilizados en la PYNQ:
+ 
+ adapter  = ArduinoSEEEDGroveAdapter(base.ARDUINO, A3 = 'grove_light', 
+                                    A1 = 'grove_temperature',
+                                    D3 = 'grove_buzzer',
+                                    D5 = 'grove_servo', 
+                                    D7 = 'grove_led_stick')
+ 
  Artículos interesantes:
  
  - https://www.researchgate.net/publication/264419855_One_Millisecond_Face_Alignment_with_an_Ensemble_of_Regression_Trees

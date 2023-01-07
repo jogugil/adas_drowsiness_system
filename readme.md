@@ -57,9 +57,12 @@ from scipy.spatial import distance as dist
 * Python 3.9: https://www.python.org/downloads/release/python-390/
 * HiveMQ: https://www.hivemq.com/
 * Paho Python: https://pypi.org/project/paho-mqtt/
+* dlib: http://dlib.net/
+https://unipython.com/instalar-dlib/
 
+* oepncv-python: https://opencv.org/opencv-face-recognition/
 
---------------
+---
 import iotadas as adas ----- (desarrollado en el proyecto)
 
 
@@ -165,3 +168,10 @@ En PYNQ-SYSTEMS:
               upper_body.xml"
            |
            \users\
+           
+           
+ Artículos interesantes:
+ 
+ - https://www.researchgate.net/publication/264419855_One_Millisecond_Face_Alignment_with_an_Ensemble_of_Regression_Trees
+ - https://learnopencv.com/introduction-to-mediapipe/
+ - https://github.com/dsuess/mediapipe-pytorch

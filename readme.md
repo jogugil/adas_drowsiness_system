@@ -177,99 +177,184 @@ En PYNQ-SYSTEMS:
  - https://github.com/dsuess/mediapipe-pytorch
  
  
- Arranque rápido:
+ **Arranque rápido:**
  
- 	Entorno 1 
+ **	Entorno 1** 
+ 
  
 o	PC: 
+
       	Módulo ioadas.py
+      
       	Notebook: Login_App_onlyMQTT.ipynb
+      
       	Subdirectorios:
+      
               •	./data/users
+              
               •	./data/reconocimientos
+              
               •	./model/shape_predictor_68_face_landmarks.dat
+              
               •	./model/ *.xml
+              
               •	./model/user
+              
 o	PYNQ:
+
         	Notebook: APP_IOT_MQTT_ONLY_PROD.ypnib
+        
 PASOS:
+
       1.	Vas a la PYNQ y ejecutas todos los chuncks del notebook APP_IOT_MQTT_ONLY_PROD.ypnib. 
+      
       2.	En dicho notebook se ejecuta : init_app () # Sin control de somnolencia en la pynq
+      
       3.	Vas al PC y ejecutas : Login_App_onlyMQTT.ipynb
+      
                 Nota: Debes registrarte antes
 
-	Entorno 2 . NO RECOMENDABLE
+
+
+
+**	Entorno 2 . NO RECOMENDABLE**
+
 o	PC: 
+
      	Módulo ioadas.py
+     
      	Notebook: Login_App_onlyMQTT.ipynb
+     
      	Subdirectorios:
+     
                   •	./data/users
+                  
                   •	./data/reconocimientos
+                  
                   •	./model/shape_predictor_68_face_landmarks.dat
+                  
                   •	./model/ *.xml
+                  
                   •	./model/user
+                  
+                  
 o	PYNQ:
+
      	Notebook: APP_IOT_MQTT_ONLY_PROD.ypnib
+     
 
 PASOS:
+
        1.	Vaya a PC-System y en la función   init_app () del fichero de PC-system Login_App.ipynb y comentar:
+       
            event = multiprocessing.Event() 
+           
            r_somno = threading.Thread(target = adas.run_drowsiness,args=(event,))
+           
            r_somno.start ()
 
        2.	Vas a la pynq y ejecutas los cucks APP_IOT_MQTT_ONLY_PROD.ypnib : init_app_con_somnolencia ()  
+       
        3.	Vas al PC y ejecutas : Login_App_onlyMQTT.ipynb
+       
               Nota: Debes registrarte antes
               
               
-	Entorno 3 . 
+              
+              
+              
+**	Entorno 3 . **
+
 o	PC: 
+
         	Módulo ioadas.py
+        
         	Notebook: Login_App.ipynb
+        
         	Subdirectorios:
+        
                 •	./data/users
+                
                 •	./data/reconocimientos
+                
                 •	./model/shape_predictor_68_face_landmarks.dat
+                
                 •	./model/ *.xml
+                
                 •	./model/user
+                
+                
 o	PYNQ:
+
         	Notebook: APP_IOT_UART_PROD.ypnib
 
+
 PASOS:
+
         1.	Vas a la PYNQ y ejecutas todos los chucks del notebook APP_IOT_UART_PROD.ypnib. 
+        
         2.	En dicho notebook se ejecuta : init_app () # Sin controlo de somnolencia en la pynq
+        
         3.	Vas al PC y ejecutas : Login_App.ipynb
+        
              Nota: Debes registrarte antes
 
-	Entorno4 . NO RECOMENDABLE
+
+**	Entorno4 . NO RECOMENDABLE**
+
 o	PC: 
+
           	Módulo ioadas.py
+          
           	Notebook: Login_App.ipynb
+          
           	Subdirectorios:
+          
                      •	./data/users
+                     
                      •	./data/reconocimientos
+                     
                      •	./model/shape_predictor_68_face_landmarks.dat
+                     
                      •	./model/ *.xml
+                     
                      •	./model/user
+                     
+                     
 o	PYNQ:
+
            	Notebook: APP_IOT_UART_PROD.ypnib
+           
 
 PASOS:
+
          1.	Vas a la PYNQ y en el notebook APP_IOT_PROD.ypnib.  comentas las líneas de código:
-           event = multiprocessing.Event() 
+         
+             event = multiprocessing.Event() 
+             
              r_somno = threading.Thread(target = adas.run_drowsiness,args=(event,))
+             
              r_somno.start ()
+             
            presente en la función init_app ()
+           
          2.	Vas a la pynq y ejecutas los cucks APP_IOT_UART_PROD.ypnib : init_app_con_somnolencia ()  
+         
          3.	Vas al PC y ejecutas : Login_App.ipynb
+         
              NOTA: Debes registrarte antes
 
-Si quieres probas sólo el control somnolencia:
+
+
+**Si quieres probas sólo el control somnolencia:**
+
+
 -	PC: Puedes lanzar el noteboock : Login_App_onlyMQTT.ipynb sin lanzar el script de PYNQ. (los mensajes se almacenarán en HiceMQ sin consumirse). Luego puedes jugar con el módulo.
+-
 -	PYNQ: Puedes ejecutar y probar cualquiera de los módulos por separado. después de la implementación del módulo se ha dejado un Chuck para probarlos. 
 
 
-Nota: En los entornos 3 y 4 que se utiliza bluetooth hay que configurar el puerto COM? del PC donde se ejecute.
+**Nota: En los entornos 3 y 4 que se utiliza bluetooth hay que configurar el puerto COM? del PC donde se ejecute.**
 
 **INTEGRAR DLIB en la PYNQZ2 unbuntu 24.04, Python 3.10, onnx y sin tener cuda**
 (Disponer una SD de almenos 64G)

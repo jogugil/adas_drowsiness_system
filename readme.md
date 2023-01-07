@@ -54,7 +54,7 @@ from scipy.spatial import distance as dist
 
  
 * PYNQ-Z2 V3.1: https://pynq.readthedocs.io/en/latest/getting_started/pynq_z2_setup.html
-* Python 3.9
+* Python 3.9: https://www.python.org/downloads/release/python-390/
 * HiveMQ: https://www.hivemq.com/
 * Paho Python: https://pypi.org/project/paho-mqtt/
 

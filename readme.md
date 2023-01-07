@@ -70,13 +70,21 @@ La primera vez tendras que regstrarte desde el Front-End de PC-System.
 
 En PC-System:
 
+
 \sin_com_uart\
+    
     Login_App_onlyMQTT.ipynb
+    
     iotadas.py
-     \data
+    
+    \data
+         
          |
+         
          \reconocimiento
+         
          |
+          
           \users
          
     \model\

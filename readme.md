@@ -1,4 +1,4 @@
-Librerias utilizadas:
+**Librerias utilizadas:**
 
 %matplotlib inline 
 from matplotlib import pyplot as plt
@@ -48,7 +48,7 @@ from scipy.spatial import distance as dist
 
  --------------------
  
- Entorno:
+ **Entorno**
  
  ![image](https://user-images.githubusercontent.com/15160072/211155563-dd644342-3e27-4474-8752-eccdbb2c2018.png)
 
@@ -263,7 +263,7 @@ PASOS:
               
               
               
-**	Entorno 3 . **
+**	Entorno 3**
 
 o	PC: 
 

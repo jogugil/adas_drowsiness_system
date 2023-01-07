@@ -73,11 +73,12 @@ En PC-System:
 \sin_com_uart\
     Login_App_onlyMQTT.ipynb
     iotadas.py
-    \data
+     \data
          |
          \reconocimiento
          |
-         \users
+          \users
+         
     \model\
            -  upper_body2.xml"
               eye.xml"

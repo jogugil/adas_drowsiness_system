@@ -217,7 +217,7 @@ PASOS:
 
 
 
-**	Entorno 2 . NO RECOMENDABLE**
+**	Entorno 2**
 
 o	PC: 
 
@@ -300,7 +300,7 @@ PASOS:
              Nota: Debes registrarte antes
 
 
-**	Entorno4 . NO RECOMENDABLE**
+**	Entorno4**
 
 o	PC: 
 
@@ -346,7 +346,7 @@ PASOS:
 
 
 
-**Si quieres probas sólo el control somnolencia:**
+**Si quieres probar sólo el control somnolencia:**
 
 
 -	PC: Puedes lanzar el noteboock : Login_App_onlyMQTT.ipynb sin lanzar el script de PYNQ. (los mensajes se almacenarán en HiceMQ sin consumirse). Luego puedes jugar con el módulo.

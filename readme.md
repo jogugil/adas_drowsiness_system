@@ -72,43 +72,47 @@ En PC-System:
 
 
 \sin_com_uart\
-               - iotadas.py
-               - Login_App_onlyMQTT.ipynb
-               - \data\
-                        - \reconocimiento
-                        -  \users
-                - \model\
-                         -  upper_body2.xml"
-                            eye.xml"
-                            face.xml"
-                            face_cv2.xml"
-                            face2.xml"
-                            face3.xml"
-                            face4.xml"
-                            fullbody.xml"
-                            glasses.xml"
-                            haarcascade_car.xml"
-                            haarcascade_eye.xml"
-                            haarcascade_frontalface_alt2.xml"
-                            haarcascade_frontalface_default.xml" (**)
-                            haarcascade_fullbody.xml"
-                            lbpcascade_frontalface.xml"
-                            left_ear.xml"
-                            left_eye2.xml"
-                            lefteye.xml"
-                            lower_body.xml"
-                            mouth.xml"
-                            nose.xml"
-                            profile.xml"
-                            right_ear.xml"
-                            right_eye.xml"
-                            right_eye2.xml"
-                            shape_predictor_68_face_landmarks.dat" (**)
-                            two_eyes_big.xml"
-                            two_eyes_small.xml"
-                            upper_body.xml"
-                         |
-                         \users\
+    Login_App_onlyMQTT.ipynb
+    iotadas.py
+    \data
+         |
+         \reconocimiento
+         |
+         \users
+
+    \model\
+           -  upper_body2.xml"
+              eye.xml"
+              face.xml"
+              face_cv2.xml"
+              face2.xml"
+              face3.xml"
+              face4.xml"
+              fullbody.xml"
+              glasses.xml"
+              haarcascade_car.xml"
+              haarcascade_eye.xml"
+              haarcascade_frontalface_alt2.xml"
+              haarcascade_frontalface_default.xml"
+              haarcascade_fullbody.xml"
+              lbpcascade_frontalface.xml"
+              left_ear.xml"
+              left_eye2.xml"
+              lefteye.xml"
+              lower_body.xml"
+              mouth.xml"
+              nose.xml"
+              profile.xml"
+              right_ear.xml"
+              right_eye.xml"
+              right_eye2.xml"
+              shape_predictor_68_face_landmarks.dat" (**)
+              two_eyes_big.xml"
+              two_eyes_small.xml"
+              upper_body.xml"
+           |
+           \users\
+
 
 En PYNQ-SYSTEMS:
 

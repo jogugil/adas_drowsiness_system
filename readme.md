@@ -1,8 +1,3 @@
-Sólo he podido suir los notebooks. Voya a subir elproyecto en GitHub:
-
-
-
-
 Librerias utilizadas:
 
 %matplotlib inline 
@@ -51,20 +46,27 @@ from IPython.display import clear_output
 from scipy.spatial import distance as dist
  
 
+ --------------------
  
+ Entorno:
+ 
+ ![image](https://user-images.githubusercontent.com/15160072/211155563-dd644342-3e27-4474-8752-eccdbb2c2018.png)
+
+ 
+* PYNQ-Z2 V3.1: https://pynq.readthedocs.io/en/latest/getting_started/pynq_z2_setup.html
+* Python 3.9
+* HiveMQ: https://www.hivemq.com/
+* Paho Python: https://pypi.org/project/paho-mqtt/
+
 
 --------------
 import iotadas as adas ----- (desarrollado en el proyecto)
 
 
-Para que funcione es necesario unos subdirectorios donde se tenga 
-la red preentrenada y los modelos entrenados. 
-Además, en pcsystem debemos tener un conjunto de subdirectorios 
-donde se almcenaran los usurios registrados.
-Aunue no se usan todo s los modelos almacenados en ficheros xml, si
-los tendremos para posteriores desarrollos.
+Para que funcione es necesario unos subdirectorios donde se tenga  la red preentrenada y los modelos entrenados.  Además, en pcsystem debemos tener un conjunto de subdirectorios  donde se almcenaran los usurios registrados.
+Aunque no se usan todos los modelos almacenados en ficheros xml, si los tendrémos para posteriores desarrollos.
 
-La primera vez tendrs que regstrarte desde el Front-End de PC-System.
+La primera vez tendras que regstrarte desde el Front-End de PC-System.
 
 En PC-System:
 

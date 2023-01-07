@@ -70,8 +70,9 @@ La primera vez tendras que regstrarte desde el Front-End de PC-System.
 
 En PC-System:
 
+
 \sin_com_uart
-   |
+      |
     iotadas.py
     Login_App_onlyMQTT.ipynb
     \data
@@ -79,7 +80,6 @@ En PC-System:
          \reconocimiento
          |
          \users
-
     \model\
            -  upper_body2.xml"
               eye.xml"

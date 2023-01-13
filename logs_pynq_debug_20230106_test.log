@@ -1,0 +1,1664 @@
+2023-01-06 18:59:10,604 root            INFO     connect_client_cam
+2023-01-06 18:59:10,637 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 19:18:45,604 root            INFO     connect_client_cam
+2023-01-06 19:18:45,636 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 19:28:02,719 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 19:28:03,143 root            INFO     NO CONECTA
+2023-01-06 19:28:04,149 root            INFO     CONECTA
+2023-01-06 19:28:07,507 root            INFO     BUZZER
+2023-01-06 19:28:07,519 root            INFO     recv_params_msg_json
+2023-01-06 19:28:07,527 root            INFO     SERVO
+2023-01-06 19:28:07,534 root            INFO     recv_params_msg_json
+2023-01-06 19:28:07,541 root            INFO     LED_STICK
+2023-01-06 19:28:07,549 root            INFO     recv_params_msg_json
+2023-01-06 19:28:07,556 root            INFO     DTTEMP
+2023-01-06 19:28:07,564 root            INFO     recv_temp_msg_json
+2023-01-06 19:28:07,571 root            INFO     DTLIGTH
+2023-01-06 19:28:43,823 root            INFO      temp_sensor ( )
+2023-01-06 19:28:43,837 root            INFO     ligth_intensity ( )
+2023-01-06 19:28:57,444 root            INFO     def init_app ():
+2023-01-06 19:28:57,458 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 19:29:34,428 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:29:34,434 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "OK"}
+2023-01-06 19:29:34,446 root            INFO     LOGIN
+2023-01-06 19:29:34,453 root            INFO     EVENT_LOGIN
+2023-01-06 19:29:34,459 root            INFO     OK
+2023-01-06 19:29:42,536 root            INFO     Evento: DTSMOKING
+2023-01-06 19:29:42,543 root            INFO     DTSMOKING
+2023-01-06 19:29:42,563 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:29:42,583 root            INFO     Voy a conectar el cliente publicador de eventos de la cam
+2023-01-06 19:29:42,596 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 19:29:58,014 root            INFO     Evento: DTMOBIL
+2023-01-06 19:29:58,015 root            INFO     cv2.VideoCapture(0)
+2023-01-06 19:29:58,019 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:29:58,029 root            INFO     DTMOBIL
+2023-01-06 19:29:58,037 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 19:29:58,042 root            INFO     LED_STICK
+2023-01-06 19:29:58,048 root            INFO     EVENT_LED_STICK
+2023-01-06 19:29:58,054 root            INFO     recv_params_msg_json
+2023-01-06 19:29:58,082 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:29:58,087 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:29:58,099 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:29:58,105 root            INFO     BUZZER
+2023-01-06 19:29:58,139 root            INFO     EVENT_BUZZER
+2023-01-06 19:29:58,148 root            INFO     recv_params_msg_json
+2023-01-06 19:30:02,650 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:02,655 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 19:30:02,672 root            INFO     LED_STICK
+2023-01-06 19:30:02,677 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:02,683 root            INFO     recv_params_msg_json
+2023-01-06 19:30:03,148 root            INFO     Evento: DTTEMP
+2023-01-06 19:30:03,155 root            INFO     DTTEMP
+2023-01-06 19:30:03,170 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -6.812019348144531}
+2023-01-06 19:30:03,658 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:03,663 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:30:03,670 root            INFO     BUZZER
+2023-01-06 19:30:03,677 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:03,696 root            INFO     recv_params_msg_json
+2023-01-06 19:30:07,059 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:07,064 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:30:07,076 root            INFO     LED_STICK
+2023-01-06 19:30:07,082 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:07,088 root            INFO     recv_params_msg_json
+2023-01-06 19:30:07,124 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:07,134 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -6.812019348144531}
+2023-01-06 19:30:07,141 root            INFO     DTTEMP
+2023-01-06 19:30:07,147 root            INFO     EVENT_DTTEMP
+2023-01-06 19:30:07,153 root            INFO     recv_temp_msg_json
+2023-01-06 19:30:07,160 root            INFO     Se ha detectado una temperatura de -6.812019348144531ºC
+2023-01-06 19:30:08,189 root            INFO     Evento: DTYAWN
+2023-01-06 19:30:08,197 root            INFO     DTYAWN
+2023-01-06 19:30:08,203 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:30:09,328 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:09,334 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 19:30:09,347 root            INFO     LED_STICK
+2023-01-06 19:30:09,354 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:09,360 root            INFO     recv_params_msg_json
+2023-01-06 19:30:10,334 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:10,340 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:30:10,352 root            INFO     BUZZER
+2023-01-06 19:30:10,357 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:10,363 root            INFO     recv_params_msg_json
+2023-01-06 19:30:13,223 root            INFO     Evento: DTLIGTH
+2023-01-06 19:30:13,229 root            INFO     DTLIGTH
+2023-01-06 19:30:13,238 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 3.466796875}
+2023-01-06 19:30:14,355 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:14,360 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [128]}
+2023-01-06 19:30:14,367 root            INFO     LED_STICK
+2023-01-06 19:30:14,374 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:14,386 root            INFO     recv_params_msg_json
+2023-01-06 19:30:15,357 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:15,362 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTLIGTH", "ILight": 3.466796875}
+2023-01-06 19:30:15,376 root            INFO     DTLIGTH
+2023-01-06 19:30:15,386 root            INFO     EVENT_DTLIGTH
+2023-01-06 19:30:15,392 root            INFO     Se ha detectado un aluz interna con una intensidad de 3.466796875
+2023-01-06 19:30:15,397 root            INFO     Recuerde que por llevar luces internas encendidas le pueden multar con 200 euros.
+2023-01-06 19:30:18,261 root            INFO     Evento: DTSMOKING
+2023-01-06 19:30:18,267 root            INFO     DTSMOKING
+2023-01-06 19:30:18,277 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:30:19,390 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:19,396 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 19:30:19,403 root            INFO     LED_STICK
+2023-01-06 19:30:19,410 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:19,417 root            INFO     recv_params_msg_json
+2023-01-06 19:30:20,406 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:20,415 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:30:20,420 root            INFO     BUZZER
+2023-01-06 19:30:20,427 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:20,433 root            INFO     recv_params_msg_json
+2023-01-06 19:30:23,305 root            INFO     Evento: DTTEMP
+2023-01-06 19:30:23,320 root            INFO     DTTEMP
+2023-01-06 19:30:23,669 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:30:24,864 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:24,871 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:30:24,887 root            INFO     LED_STICK
+2023-01-06 19:30:24,894 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:24,900 root            INFO     recv_params_msg_json
+2023-01-06 19:30:25,880 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:25,885 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:30:25,897 root            INFO     DTTEMP
+2023-01-06 19:30:25,904 root            INFO     EVENT_DTTEMP
+2023-01-06 19:30:25,916 root            INFO     recv_temp_msg_json
+2023-01-06 19:30:25,922 root            INFO     Se ha detectado una temperatura de -25.0ºC
+2023-01-06 19:30:28,684 root            INFO     Evento: DTEATING
+2023-01-06 19:30:28,690 root            INFO     DTEATING
+2023-01-06 19:30:28,697 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:30:29,815 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:29,821 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [32768]}
+2023-01-06 19:30:29,827 root            INFO     LED_STICK
+2023-01-06 19:30:29,835 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:29,846 root            INFO     recv_params_msg_json
+2023-01-06 19:30:30,819 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:30,824 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "1"]}
+2023-01-06 19:30:30,837 root            INFO     BUZZER
+2023-01-06 19:30:30,842 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:30,848 root            INFO     recv_params_msg_json
+2023-01-06 19:30:33,717 root            INFO     Evento: DTSMOKING
+2023-01-06 19:30:33,723 root            INFO     DTSMOKING
+2023-01-06 19:30:33,730 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:30:34,843 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:34,848 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 19:30:34,857 root            INFO     LED_STICK
+2023-01-06 19:30:34,863 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:34,869 root            INFO     recv_params_msg_json
+2023-01-06 19:30:35,850 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:35,856 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:30:35,867 root            INFO     BUZZER
+2023-01-06 19:30:35,873 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:35,880 root            INFO     recv_params_msg_json
+2023-01-06 19:30:38,773 root            INFO     Evento: DTSMOKING
+2023-01-06 19:30:38,822 root            INFO     DTSMOKING
+2023-01-06 19:30:38,852 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:30:40,315 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:40,321 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 19:30:40,332 root            INFO     LED_STICK
+2023-01-06 19:30:40,339 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:40,345 root            INFO     recv_params_msg_json
+2023-01-06 19:30:41,331 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:41,336 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:30:41,347 root            INFO     BUZZER
+2023-01-06 19:30:41,353 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:41,358 root            INFO     recv_params_msg_json
+2023-01-06 19:30:43,913 root            INFO     Evento: DTEATING
+2023-01-06 19:30:43,959 root            INFO     DTEATING
+2023-01-06 19:30:44,003 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:30:45,783 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:45,788 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [32768]}
+2023-01-06 19:30:45,801 root            INFO     LED_STICK
+2023-01-06 19:30:45,806 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:45,813 root            INFO     recv_params_msg_json
+2023-01-06 19:30:46,786 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:46,791 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "1"]}
+2023-01-06 19:30:46,807 root            INFO     BUZZER
+2023-01-06 19:30:46,814 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:46,826 root            INFO     recv_params_msg_json
+2023-01-06 19:30:49,058 root            INFO     Evento: DTDRINK
+2023-01-06 19:30:49,065 root            INFO     DTDRINK
+2023-01-06 19:30:49,071 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:30:50,178 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:50,184 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 19:30:50,197 root            INFO     LED_STICK
+2023-01-06 19:30:50,202 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:50,208 root            INFO     recv_params_msg_json
+2023-01-06 19:30:51,188 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:51,193 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:30:51,207 root            INFO     BUZZER
+2023-01-06 19:30:51,213 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:51,220 root            INFO     recv_params_msg_json
+2023-01-06 19:30:54,114 root            INFO     Evento: DTBLINK
+2023-01-06 19:30:54,161 root            INFO     DTBLINK
+2023-01-06 19:30:54,202 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:30:55,680 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:55,686 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:30:55,698 root            INFO     LED_STICK
+2023-01-06 19:30:55,705 root            INFO     EVENT_LED_STICK
+2023-01-06 19:30:55,711 root            INFO     recv_params_msg_json
+2023-01-06 19:30:56,697 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:56,703 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:30:56,717 root            INFO     BUZZER
+2023-01-06 19:30:56,733 root            INFO     EVENT_BUZZER
+2023-01-06 19:30:56,742 root            INFO     recv_params_msg_json
+2023-01-06 19:30:57,889 root            INFO      Cliente PYNQ:::>>> Thread 2469770144 - Processing on_message
+2023-01-06 19:30:57,895 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "NOK"}
+2023-01-06 19:30:57,906 root            INFO     LOGIN
+2023-01-06 19:30:57,913 root            INFO     EVENT_LOGIN
+2023-01-06 19:30:57,919 root            INFO     NOK
+2023-01-06 19:30:59,273 root            INFO     Evento: DTBLINK
+2023-01-06 19:30:59,278 root            INFO     DTBLINK
+2023-01-06 19:30:59,287 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:30:59,304 root            INFO     def close_app ():
+2023-01-06 19:30:59,327 root            INFO     disconnect_client_cam
+2023-01-06 19:31:56,537 root            INFO     def init_app ():
+2023-01-06 19:31:56,558 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 19:33:30,655 root            INFO     connect_client_cam
+2023-01-06 19:33:30,690 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 19:36:12,260 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 19:36:12,566 root            INFO     NO CONECTA
+2023-01-06 19:36:13,574 root            INFO     CONECTA
+2023-01-06 19:36:15,045 root            INFO     BUZZER
+2023-01-06 19:36:15,057 root            INFO     recv_params_msg_json
+2023-01-06 19:36:15,064 root            INFO     SERVO
+2023-01-06 19:36:15,071 root            INFO     recv_params_msg_json
+2023-01-06 19:36:15,079 root            INFO     LED_STICK
+2023-01-06 19:36:15,086 root            INFO     recv_params_msg_json
+2023-01-06 19:36:15,094 root            INFO     DTTEMP
+2023-01-06 19:36:15,101 root            INFO     recv_temp_msg_json
+2023-01-06 19:36:15,109 root            INFO     DTLIGTH
+2023-01-06 19:36:35,210 root            INFO      temp_sensor ( )
+2023-01-06 19:36:35,221 root            INFO     ligth_intensity ( )
+2023-01-06 19:36:56,726 root            INFO     def init_app ():
+2023-01-06 19:36:56,744 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 19:37:14,305 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:14,310 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "OK"}
+2023-01-06 19:37:14,323 root            INFO     LOGIN
+2023-01-06 19:37:14,329 root            INFO     EVENT_LOGIN
+2023-01-06 19:37:14,335 root            INFO     OK
+2023-01-06 19:37:21,789 root            INFO     Evento: DTBLINK
+2023-01-06 19:37:21,798 root            INFO     DTBLINK
+2023-01-06 19:37:21,818 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:37:21,840 root            INFO     Voy a conectar el cliente publicador de eventos de la cam
+2023-01-06 19:37:21,850 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 19:37:37,589 root            INFO     Evento: DTYAWN
+2023-01-06 19:37:37,595 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:37,590 root            INFO     cv2.VideoCapture(0)
+2023-01-06 19:37:37,604 root            INFO     DTYAWN
+2023-01-06 19:37:37,613 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:37:37,680 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:37:37,699 root            INFO     LED_STICK
+2023-01-06 19:37:37,714 root            INFO     EVENT_LED_STICK
+2023-01-06 19:37:37,720 root            INFO     recv_params_msg_json
+2023-01-06 19:37:37,770 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:37,777 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:37:37,785 root            INFO     BUZZER
+2023-01-06 19:37:37,796 root            INFO     EVENT_BUZZER
+2023-01-06 19:37:37,813 root            INFO     recv_params_msg_json
+2023-01-06 19:37:40,153 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:40,159 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 19:37:40,168 root            INFO     LED_STICK
+2023-01-06 19:37:40,174 root            INFO     EVENT_LED_STICK
+2023-01-06 19:37:40,180 root            INFO     recv_params_msg_json
+2023-01-06 19:37:41,164 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:41,169 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:37:41,177 root            INFO     BUZZER
+2023-01-06 19:37:41,183 root            INFO     EVENT_BUZZER
+2023-01-06 19:37:41,190 root            INFO     recv_params_msg_json
+2023-01-06 19:37:42,706 root            INFO     Evento: DTDRINK
+2023-01-06 19:37:42,713 root            INFO     DTDRINK
+2023-01-06 19:37:42,727 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:37:43,854 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:43,860 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 19:37:43,875 root            INFO     LED_STICK
+2023-01-06 19:37:43,881 root            INFO     EVENT_LED_STICK
+2023-01-06 19:37:43,886 root            INFO     recv_params_msg_json
+2023-01-06 19:37:44,862 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:44,867 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:37:44,877 root            INFO     BUZZER
+2023-01-06 19:37:44,883 root            INFO     EVENT_BUZZER
+2023-01-06 19:37:44,888 root            INFO     recv_params_msg_json
+2023-01-06 19:37:47,768 root            INFO     Evento: DTTEMP
+2023-01-06 19:37:47,806 root            INFO     DTTEMP
+2023-01-06 19:37:48,144 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:37:49,367 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:49,373 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:37:49,384 root            INFO     LED_STICK
+2023-01-06 19:37:49,391 root            INFO     EVENT_LED_STICK
+2023-01-06 19:37:49,397 root            INFO     recv_params_msg_json
+2023-01-06 19:37:50,377 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:50,383 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:37:50,397 root            INFO     DTTEMP
+2023-01-06 19:37:50,411 root            INFO     EVENT_DTTEMP
+2023-01-06 19:37:50,416 root            INFO     recv_temp_msg_json
+2023-01-06 19:37:50,423 root            INFO     Se ha detectado una temperatura de -25.0ºC
+2023-01-06 19:37:53,184 root            INFO     Evento: DTDRINK
+2023-01-06 19:37:53,191 root            INFO     DTDRINK
+2023-01-06 19:37:53,208 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:37:54,343 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:54,348 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 19:37:54,357 root            INFO     LED_STICK
+2023-01-06 19:37:54,363 root            INFO     EVENT_LED_STICK
+2023-01-06 19:37:54,368 root            INFO     recv_params_msg_json
+2023-01-06 19:37:55,354 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:55,359 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:37:55,367 root            INFO     BUZZER
+2023-01-06 19:37:55,372 root            INFO     EVENT_BUZZER
+2023-01-06 19:37:55,378 root            INFO     recv_params_msg_json
+2023-01-06 19:37:58,250 root            INFO     Evento: DTDRINK
+2023-01-06 19:37:58,297 root            INFO     DTDRINK
+2023-01-06 19:37:58,333 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:37:59,857 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:37:59,862 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 19:37:59,874 root            INFO     LED_STICK
+2023-01-06 19:37:59,881 root            INFO     EVENT_LED_STICK
+2023-01-06 19:37:59,886 root            INFO     recv_params_msg_json
+2023-01-06 19:38:00,870 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:00,876 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:38:00,887 root            INFO     BUZZER
+2023-01-06 19:38:00,893 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:00,900 root            INFO     recv_params_msg_json
+2023-01-06 19:38:03,428 root            INFO     Evento: DTBLINK
+2023-01-06 19:38:03,515 root            INFO     DTBLINK
+2023-01-06 19:38:03,582 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:38:05,387 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:05,393 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:38:05,404 root            INFO     LED_STICK
+2023-01-06 19:38:05,411 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:05,417 root            INFO     recv_params_msg_json
+2023-01-06 19:38:06,400 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:06,405 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:38:06,417 root            INFO     BUZZER
+2023-01-06 19:38:06,423 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:06,429 root            INFO     recv_params_msg_json
+2023-01-06 19:38:08,686 root            INFO     Evento: DTMOBIL
+2023-01-06 19:38:08,693 root            INFO     DTMOBIL
+2023-01-06 19:38:08,705 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:38:09,830 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:09,835 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 19:38:09,842 root            INFO     LED_STICK
+2023-01-06 19:38:09,849 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:09,855 root            INFO     recv_params_msg_json
+2023-01-06 19:38:10,837 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:10,842 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:38:10,855 root            INFO     BUZZER
+2023-01-06 19:38:10,861 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:10,867 root            INFO     recv_params_msg_json
+2023-01-06 19:38:13,735 root            INFO     Evento: DTBLINK
+2023-01-06 19:38:13,787 root            INFO     DTBLINK
+2023-01-06 19:38:13,834 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:38:15,361 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:15,366 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:38:15,378 root            INFO     LED_STICK
+2023-01-06 19:38:15,384 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:15,390 root            INFO     recv_params_msg_json
+2023-01-06 19:38:16,362 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:16,368 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:38:16,378 root            INFO     BUZZER
+2023-01-06 19:38:16,384 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:16,390 root            INFO     recv_params_msg_json
+2023-01-06 19:38:18,889 root            INFO     Evento: DTLIGTH
+2023-01-06 19:38:18,896 root            INFO     DTLIGTH
+2023-01-06 19:38:18,908 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 3.810119390487671}
+2023-01-06 19:38:20,036 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:20,041 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [128]}
+2023-01-06 19:38:20,056 root            INFO     LED_STICK
+2023-01-06 19:38:20,062 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:20,067 root            INFO     recv_params_msg_json
+2023-01-06 19:38:21,041 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:21,047 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTLIGTH", "ILight": 3.810119390487671}
+2023-01-06 19:38:21,057 root            INFO     DTLIGTH
+2023-01-06 19:38:21,063 root            INFO     EVENT_DTLIGTH
+2023-01-06 19:38:21,068 root            INFO     Se ha detectado un aluz interna con una intensidad de 3.810119390487671
+2023-01-06 19:38:21,074 root            INFO     Recuerde que por llevar luces internas encendidas le pueden multar con 200 euros.
+2023-01-06 19:38:23,929 root            INFO     Evento: DTMOBIL
+2023-01-06 19:38:23,935 root            INFO     DTMOBIL
+2023-01-06 19:38:23,941 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:38:25,089 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:25,095 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 19:38:25,108 root            INFO     LED_STICK
+2023-01-06 19:38:25,114 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:25,119 root            INFO     recv_params_msg_json
+2023-01-06 19:38:26,100 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:26,106 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:38:26,117 root            INFO     BUZZER
+2023-01-06 19:38:26,122 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:26,128 root            INFO     recv_params_msg_json
+2023-01-06 19:38:28,985 root            INFO     Evento: DTTEMP
+2023-01-06 19:38:29,051 root            INFO     DTTEMP
+2023-01-06 19:38:29,398 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:38:30,622 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:30,628 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:38:30,639 root            INFO     LED_STICK
+2023-01-06 19:38:30,646 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:30,652 root            INFO     recv_params_msg_json
+2023-01-06 19:38:31,636 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:31,641 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:38:31,657 root            INFO     DTTEMP
+2023-01-06 19:38:31,662 root            INFO     EVENT_DTTEMP
+2023-01-06 19:38:31,668 root            INFO     recv_temp_msg_json
+2023-01-06 19:38:31,673 root            INFO     Se ha detectado una temperatura de -25.0ºC
+2023-01-06 19:38:34,420 root            INFO     Evento: DTYAWN
+2023-01-06 19:38:34,428 root            INFO     DTYAWN
+2023-01-06 19:38:34,435 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:38:35,558 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:35,563 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 19:38:35,572 root            INFO     LED_STICK
+2023-01-06 19:38:35,579 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:35,585 root            INFO     recv_params_msg_json
+2023-01-06 19:38:36,561 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:36,567 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:38:36,577 root            INFO     BUZZER
+2023-01-06 19:38:36,583 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:36,590 root            INFO     recv_params_msg_json
+2023-01-06 19:38:39,456 root            INFO     Evento: DTMOBIL
+2023-01-06 19:38:39,463 root            INFO     DTMOBIL
+2023-01-06 19:38:39,477 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:38:40,611 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:40,617 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 19:38:40,627 root            INFO     LED_STICK
+2023-01-06 19:38:40,632 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:40,638 root            INFO     recv_params_msg_json
+2023-01-06 19:38:41,620 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:41,625 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:38:41,637 root            INFO     BUZZER
+2023-01-06 19:38:41,643 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:41,648 root            INFO     recv_params_msg_json
+2023-01-06 19:38:44,514 root            INFO     Evento: DTBLINK
+2023-01-06 19:38:44,602 root            INFO     DTBLINK
+2023-01-06 19:38:44,694 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:38:46,126 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:46,131 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:38:46,138 root            INFO     LED_STICK
+2023-01-06 19:38:46,145 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:46,151 root            INFO     recv_params_msg_json
+2023-01-06 19:38:47,143 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:47,148 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:38:47,157 root            INFO     BUZZER
+2023-01-06 19:38:47,163 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:47,169 root            INFO     recv_params_msg_json
+2023-01-06 19:38:49,759 root            INFO     Evento: DTDRINK
+2023-01-06 19:38:49,766 root            INFO     DTDRINK
+2023-01-06 19:38:49,777 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:38:50,897 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:50,903 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 19:38:50,909 root            INFO     LED_STICK
+2023-01-06 19:38:50,916 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:50,922 root            INFO     recv_params_msg_json
+2023-01-06 19:38:51,902 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:51,908 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:38:51,914 root            INFO     BUZZER
+2023-01-06 19:38:51,921 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:51,927 root            INFO     recv_params_msg_json
+2023-01-06 19:38:54,809 root            INFO     Evento: DTBLINK
+2023-01-06 19:38:54,856 root            INFO     DTBLINK
+2023-01-06 19:38:54,882 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:38:56,410 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:56,416 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:38:56,427 root            INFO     LED_STICK
+2023-01-06 19:38:56,434 root            INFO     EVENT_LED_STICK
+2023-01-06 19:38:56,439 root            INFO     recv_params_msg_json
+2023-01-06 19:38:57,419 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:38:57,424 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:38:57,437 root            INFO     BUZZER
+2023-01-06 19:38:57,444 root            INFO     EVENT_BUZZER
+2023-01-06 19:38:57,456 root            INFO     recv_params_msg_json
+2023-01-06 19:39:00,023 root            INFO     Evento: DTDRINK
+2023-01-06 19:39:00,031 root            INFO     DTDRINK
+2023-01-06 19:39:00,036 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:39:01,169 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:39:01,174 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 19:39:01,187 root            INFO     LED_STICK
+2023-01-06 19:39:01,192 root            INFO     EVENT_LED_STICK
+2023-01-06 19:39:01,198 root            INFO     recv_params_msg_json
+2023-01-06 19:39:02,181 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:39:02,187 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:39:02,197 root            INFO     BUZZER
+2023-01-06 19:39:02,202 root            INFO     EVENT_BUZZER
+2023-01-06 19:39:02,208 root            INFO     recv_params_msg_json
+2023-01-06 19:39:05,074 root            INFO     Evento: DTMOBIL
+2023-01-06 19:39:05,117 root            INFO     DTMOBIL
+2023-01-06 19:39:05,141 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:39:06,684 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:39:06,689 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 19:39:06,701 root            INFO     LED_STICK
+2023-01-06 19:39:06,706 root            INFO     EVENT_LED_STICK
+2023-01-06 19:39:06,712 root            INFO     recv_params_msg_json
+2023-01-06 19:39:07,695 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:39:07,700 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:39:07,717 root            INFO     BUZZER
+2023-01-06 19:39:07,724 root            INFO     EVENT_BUZZER
+2023-01-06 19:39:07,736 root            INFO     recv_params_msg_json
+2023-01-06 19:39:10,207 root            INFO     Evento: DTMOBIL
+2023-01-06 19:39:10,254 root            INFO     DTMOBIL
+2023-01-06 19:39:10,286 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:39:11,099 root            INFO      Cliente PYNQ:::>>> Thread 2522477472 - Processing on_message
+2023-01-06 19:39:11,104 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "NOK"}
+2023-01-06 19:39:11,115 root            INFO     LOGIN
+2023-01-06 19:39:11,122 root            INFO     EVENT_LOGIN
+2023-01-06 19:39:11,128 root            INFO     NOK
+2023-01-06 19:39:15,321 root            INFO     Evento: DTLIGTH
+2023-01-06 19:39:15,328 root            INFO     DTLIGTH
+2023-01-06 19:39:15,339 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 3.52783203125}
+2023-01-06 19:39:15,356 root            INFO     def close_app ():
+2023-01-06 19:39:15,423 root            INFO     disconnect_client_cam
+2023-01-06 19:41:15,367 root            INFO     connect_client_cam
+2023-01-06 19:41:15,518 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 19:41:23,366 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 19:41:23,722 root            INFO     NO CONECTA
+2023-01-06 19:41:24,728 root            INFO     CONECTA
+2023-01-06 19:43:49,108 root            INFO     def init_app ():
+2023-01-06 19:43:49,130 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 19:46:56,972 root            INFO     connect_client_cam
+2023-01-06 19:46:57,006 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 19:47:00,114 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 19:47:00,532 root            INFO     NO CONECTA
+2023-01-06 19:47:01,538 root            INFO     CONECTA
+2023-01-06 19:47:03,371 root            INFO     BUZZER
+2023-01-06 19:47:03,383 root            INFO     recv_params_msg_json
+2023-01-06 19:47:03,393 root            INFO     SERVO
+2023-01-06 19:47:03,399 root            INFO     recv_params_msg_json
+2023-01-06 19:47:03,406 root            INFO     LED_STICK
+2023-01-06 19:47:03,413 root            INFO     recv_params_msg_json
+2023-01-06 19:47:03,420 root            INFO     DTTEMP
+2023-01-06 19:47:03,427 root            INFO     recv_temp_msg_json
+2023-01-06 19:47:03,434 root            INFO     DTLIGTH
+2023-01-06 19:47:22,130 root            INFO      temp_sensor ( )
+2023-01-06 19:47:22,139 root            INFO     ligth_intensity ( )
+2023-01-06 19:47:23,129 root            INFO     def init_app ():
+2023-01-06 19:47:23,153 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 19:47:38,746 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:47:38,752 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "OK"}
+2023-01-06 19:47:38,767 root            INFO     LOGIN
+2023-01-06 19:47:38,774 root            INFO     EVENT_LOGIN
+2023-01-06 19:47:38,781 root            INFO     OK
+2023-01-06 19:47:48,207 root            INFO     Evento: DTYAWN
+2023-01-06 19:47:48,216 root            INFO     DTYAWN
+2023-01-06 19:47:48,235 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:47:48,254 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 19:48:04,073 root            INFO     Evento: DTBLINK
+2023-01-06 19:48:04,074 root            INFO     cv2.VideoCapture(0)
+2023-01-06 19:48:04,087 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:04,102 root            INFO     DTBLINK
+2023-01-06 19:48:04,109 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:48:04,193 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 19:48:04,202 root            INFO     LED_STICK
+2023-01-06 19:48:04,210 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:04,219 root            INFO     recv_params_msg_json
+2023-01-06 19:48:04,299 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:04,306 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:48:04,331 root            INFO     BUZZER
+2023-01-06 19:48:04,337 root            INFO     EVENT_BUZZER
+2023-01-06 19:48:04,346 root            INFO     recv_params_msg_json
+2023-01-06 19:48:05,530 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:05,535 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:48:05,547 root            INFO     LED_STICK
+2023-01-06 19:48:05,554 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:05,560 root            INFO     recv_params_msg_json
+2023-01-06 19:48:06,418 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:06,423 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:48:06,437 root            INFO     BUZZER
+2023-01-06 19:48:06,444 root            INFO     EVENT_BUZZER
+2023-01-06 19:48:06,450 root            INFO     recv_params_msg_json
+2023-01-06 19:48:09,192 root            INFO     Evento: DTBLINK
+2023-01-06 19:48:09,202 root            INFO     DTBLINK
+2023-01-06 19:48:09,217 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 19:48:10,333 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:10,339 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:48:10,348 root            INFO     LED_STICK
+2023-01-06 19:48:10,355 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:10,361 root            INFO     recv_params_msg_json
+2023-01-06 19:48:11,342 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:11,348 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 19:48:11,367 root            INFO     BUZZER
+2023-01-06 19:48:11,381 root            INFO     EVENT_BUZZER
+2023-01-06 19:48:11,388 root            INFO     recv_params_msg_json
+2023-01-06 19:48:14,231 root            INFO     Evento: DTMOBIL
+2023-01-06 19:48:14,237 root            INFO     DTMOBIL
+2023-01-06 19:48:14,247 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:48:15,390 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:15,395 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 19:48:15,402 root            INFO     LED_STICK
+2023-01-06 19:48:15,408 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:15,415 root            INFO     recv_params_msg_json
+2023-01-06 19:48:16,393 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:16,398 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:48:16,411 root            INFO     BUZZER
+2023-01-06 19:48:16,417 root            INFO     EVENT_BUZZER
+2023-01-06 19:48:16,423 root            INFO     recv_params_msg_json
+2023-01-06 19:48:19,280 root            INFO     Evento: DTSMOKING
+2023-01-06 19:48:19,301 root            INFO     DTSMOKING
+2023-01-06 19:48:19,353 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:48:20,904 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:20,909 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 19:48:20,924 root            INFO     LED_STICK
+2023-01-06 19:48:20,939 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:20,948 root            INFO     recv_params_msg_json
+2023-01-06 19:48:21,921 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:21,935 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:48:21,941 root            INFO     BUZZER
+2023-01-06 19:48:21,956 root            INFO     EVENT_BUZZER
+2023-01-06 19:48:21,964 root            INFO     recv_params_msg_json
+2023-01-06 19:48:24,411 root            INFO     Evento: DTTEMP
+2023-01-06 19:48:24,481 root            INFO     DTTEMP
+2023-01-06 19:48:24,701 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:48:26,391 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:26,397 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 19:48:26,416 root            INFO     LED_STICK
+2023-01-06 19:48:26,424 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:26,435 root            INFO     recv_params_msg_json
+2023-01-06 19:48:27,401 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:27,406 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:48:27,417 root            INFO     DTTEMP
+2023-01-06 19:48:27,423 root            INFO     EVENT_DTTEMP
+2023-01-06 19:48:27,430 root            INFO     recv_temp_msg_json
+2023-01-06 19:48:27,437 root            INFO     Se ha detectado una temperatura de -25.0ºC
+2023-01-06 19:48:29,811 root            INFO     Evento: DTDRINK
+2023-01-06 19:48:29,818 root            INFO     DTDRINK
+2023-01-06 19:48:29,825 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:48:30,962 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:30,968 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 19:48:30,977 root            INFO     LED_STICK
+2023-01-06 19:48:30,983 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:30,990 root            INFO     recv_params_msg_json
+2023-01-06 19:48:31,973 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:31,978 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 19:48:31,987 root            INFO     BUZZER
+2023-01-06 19:48:31,993 root            INFO     EVENT_BUZZER
+2023-01-06 19:48:32,000 root            INFO     recv_params_msg_json
+2023-01-06 19:48:34,861 root            INFO     Evento: DTLIGTH
+2023-01-06 19:48:34,887 root            INFO     DTLIGTH
+2023-01-06 19:48:35,210 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 3.813171625137329}
+2023-01-06 19:48:36,413 root            INFO      Cliente PYNQ:::>>> Thread 2515596192 - Processing on_message
+2023-01-06 19:48:36,419 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [128]}
+2023-01-06 19:48:36,427 root            INFO     LED_STICK
+2023-01-06 19:48:36,433 root            INFO     EVENT_LED_STICK
+2023-01-06 19:48:36,438 root            INFO     recv_params_msg_json
+2023-01-06 19:48:40,225 root            INFO     Evento: DTTEMP
+2023-01-06 19:48:40,232 root            INFO     DTTEMP
+2023-01-06 19:48:40,247 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -25.0}
+2023-01-06 19:48:45,262 root            INFO     Evento: DTMOBIL
+2023-01-06 19:48:45,273 root            INFO     DTMOBIL
+2023-01-06 19:48:45,278 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:48:50,298 root            INFO     Evento: DTEATING
+2023-01-06 19:48:50,305 root            INFO     DTEATING
+2023-01-06 19:48:50,317 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:48:55,339 root            INFO     Evento: DTYAWN
+2023-01-06 19:48:55,349 root            INFO     DTYAWN
+2023-01-06 19:48:55,356 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:49:00,378 root            INFO     Evento: DTYAWN
+2023-01-06 19:49:00,386 root            INFO     DTYAWN
+2023-01-06 19:49:00,397 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:49:05,417 root            INFO     Evento: DTSMOKING
+2023-01-06 19:49:05,424 root            INFO     DTSMOKING
+2023-01-06 19:49:05,431 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:49:10,462 root            INFO     Evento: DTEATING
+2023-01-06 19:49:10,470 root            INFO     DTEATING
+2023-01-06 19:49:10,477 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:49:15,497 root            INFO     Evento: DTEATING
+2023-01-06 19:49:15,505 root            INFO     DTEATING
+2023-01-06 19:49:15,517 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:49:20,538 root            INFO     Evento: DTTEMP
+2023-01-06 19:49:20,545 root            INFO     DTTEMP
+2023-01-06 19:49:20,554 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -6.876823425292969}
+2023-01-06 19:49:25,575 root            INFO     Evento: DTLIGTH
+2023-01-06 19:49:25,581 root            INFO     DTLIGTH
+2023-01-06 19:49:25,598 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 18.115697860717773}
+2023-01-06 19:49:30,621 root            INFO     Evento: DTSMOKING
+2023-01-06 19:49:30,629 root            INFO     DTSMOKING
+2023-01-06 19:49:30,637 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:49:35,657 root            INFO     Evento: DTLIGTH
+2023-01-06 19:49:35,664 root            INFO     DTLIGTH
+2023-01-06 19:49:35,678 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 3.935241937637329}
+2023-01-06 19:49:40,699 root            INFO     Evento: DTYAWN
+2023-01-06 19:49:40,710 root            INFO     DTYAWN
+2023-01-06 19:49:40,716 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:49:45,737 root            INFO     Evento: DTEATING
+2023-01-06 19:49:45,747 root            INFO     DTEATING
+2023-01-06 19:49:45,756 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:49:50,777 root            INFO     Evento: DTYAWN
+2023-01-06 19:49:50,784 root            INFO     DTYAWN
+2023-01-06 19:49:50,792 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:49:55,814 root            INFO     Evento: DTTEMP
+2023-01-06 19:49:55,820 root            INFO     DTTEMP
+2023-01-06 19:49:55,828 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -21.07696533203125}
+2023-01-06 19:50:00,852 root            INFO     Evento: DTMOBIL
+2023-01-06 19:50:00,862 root            INFO     DTMOBIL
+2023-01-06 19:50:00,867 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:50:05,888 root            INFO     Evento: DTLIGTH
+2023-01-06 19:50:05,894 root            INFO     DTLIGTH
+2023-01-06 19:50:05,908 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 18.114450454711914}
+2023-01-06 19:50:10,938 root            INFO     Evento: DTSMOKING
+2023-01-06 19:50:10,952 root            INFO     DTSMOKING
+2023-01-06 19:50:10,957 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:50:15,978 root            INFO     Evento: DTMOBIL
+2023-01-06 19:50:15,986 root            INFO     DTMOBIL
+2023-01-06 19:50:15,997 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:50:21,018 root            INFO     Evento: DTSMOKING
+2023-01-06 19:50:21,028 root            INFO     DTSMOKING
+2023-01-06 19:50:21,036 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:50:26,057 root            INFO     Evento: DTLIGTH
+2023-01-06 19:50:26,065 root            INFO     DTLIGTH
+2023-01-06 19:50:26,074 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 3.904724359512329}
+2023-01-06 19:50:31,095 root            INFO     Evento: DTTEMP
+2023-01-06 19:50:31,102 root            INFO     DTTEMP
+2023-01-06 19:50:31,111 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -22.83172607421875}
+2023-01-06 19:50:36,140 root            INFO     Evento: DTEATING
+2023-01-06 19:50:36,147 root            INFO     DTEATING
+2023-01-06 19:50:36,157 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:50:41,178 root            INFO     Evento: DTYAWN
+2023-01-06 19:50:41,188 root            INFO     DTYAWN
+2023-01-06 19:50:41,196 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:50:46,217 root            INFO     Evento: DTEATING
+2023-01-06 19:50:46,224 root            INFO     DTEATING
+2023-01-06 19:50:46,231 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 19:50:51,251 root            INFO     Evento: DTMOBIL
+2023-01-06 19:50:51,259 root            INFO     DTMOBIL
+2023-01-06 19:50:51,266 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:50:56,286 root            INFO     Evento: DTMOBIL
+2023-01-06 19:50:56,294 root            INFO     DTMOBIL
+2023-01-06 19:50:56,306 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:51:01,327 root            INFO     Evento: DTLIGTH
+2023-01-06 19:51:01,334 root            INFO     DTLIGTH
+2023-01-06 19:51:01,343 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 18.059612274169922}
+2023-01-06 19:51:06,371 root            INFO     Evento: DTDRINK
+2023-01-06 19:51:06,381 root            INFO     DTDRINK
+2023-01-06 19:51:06,386 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 19:51:11,407 root            INFO     Evento: DTYAWN
+2023-01-06 19:51:11,414 root            INFO     DTYAWN
+2023-01-06 19:51:11,427 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 19:51:16,447 root            INFO     Evento: DTMOBIL
+2023-01-06 19:51:16,454 root            INFO     DTMOBIL
+2023-01-06 19:51:16,467 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 19:51:21,488 root            INFO     Evento: DTSMOKING
+2023-01-06 19:51:21,496 root            INFO     DTSMOKING
+2023-01-06 19:51:21,506 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 19:51:26,527 root            INFO     Evento: DTYAWN
+2023-01-06 20:32:08,337 root            INFO     BUZZER
+2023-01-06 20:32:08,345 root            INFO     recv_params_msg_json
+2023-01-06 20:32:08,367 root            INFO     SERVO
+2023-01-06 20:32:08,377 root            INFO     recv_params_msg_json
+2023-01-06 20:32:08,385 root            INFO     LED_STICK
+2023-01-06 20:32:08,393 root            INFO     recv_params_msg_json
+2023-01-06 20:32:08,400 root            INFO     DTTEMP
+2023-01-06 20:32:08,407 root            INFO     recv_temp_msg_json
+2023-01-06 20:32:08,415 root            INFO     DTLIGTH
+2023-01-06 20:33:00,107 root            INFO      temp_sensor ( )
+2023-01-06 20:33:00,116 root            INFO     ligth_intensity ( )
+2023-01-06 20:34:03,905 root            INFO     connect_client_cam
+2023-01-06 20:34:03,943 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 20:34:05,777 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 20:34:06,223 root            INFO     NO CONECTA
+2023-01-06 20:34:07,229 root            INFO     CONECTA
+2023-01-06 20:34:14,415 root            INFO     BUZZER
+2023-01-06 20:34:14,425 root            INFO     recv_params_msg_json
+2023-01-06 20:34:14,434 root            INFO     SERVO
+2023-01-06 20:34:14,440 root            INFO     recv_params_msg_json
+2023-01-06 20:34:14,447 root            INFO     LED_STICK
+2023-01-06 20:34:14,454 root            INFO     recv_params_msg_json
+2023-01-06 20:34:14,461 root            INFO     DTTEMP
+2023-01-06 20:34:14,467 root            INFO     recv_temp_msg_json
+2023-01-06 20:34:14,475 root            INFO     DTLIGTH
+2023-01-06 20:34:40,491 root            INFO      temp_sensor ( )
+2023-01-06 20:34:40,501 root            INFO     ligth_intensity ( )
+2023-01-06 20:34:54,401 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 20:35:09,846 root            INFO     cv2.VideoCapture(0)
+2023-01-06 20:38:02,030 root            INFO      temp_sensor ( )
+2023-01-06 20:38:02,051 root            INFO     ligth_intensity ( )
+2023-01-06 20:38:13,239 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 20:52:43,844 root            INFO     connect_client_cam
+2023-01-06 20:52:43,881 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 20:52:45,682 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 20:52:46,025 root            INFO     NO CONECTA
+2023-01-06 20:52:47,031 root            INFO     CONECTA
+2023-01-06 20:52:47,431 root            INFO     BUZZER
+2023-01-06 20:52:47,443 root            INFO     recv_params_msg_json
+2023-01-06 20:52:47,452 root            INFO     SERVO
+2023-01-06 20:52:47,461 root            INFO     recv_params_msg_json
+2023-01-06 20:52:47,472 root            INFO     LED_STICK
+2023-01-06 20:52:47,479 root            INFO     recv_params_msg_json
+2023-01-06 20:52:47,486 root            INFO     DTTEMP
+2023-01-06 20:52:47,493 root            INFO     recv_temp_msg_json
+2023-01-06 20:52:47,501 root            INFO     DTLIGTH
+2023-01-06 20:53:24,008 root            INFO      temp_sensor ( )
+2023-01-06 20:53:24,026 root            INFO     ligth_intensity ( )
+2023-01-06 20:53:29,374 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 20:53:44,771 root            INFO     cv2.VideoCapture(0)
+2023-01-06 20:55:19,725 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 20:55:35,183 root            INFO     cv2.VideoCapture(0)
+2023-01-06 20:57:46,484 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 20:58:01,387 root            INFO     cv2.VideoCapture(0)
+2023-01-06 20:59:05,068 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 20:59:19,293 root            INFO     cv2.VideoCapture(0)
+2023-01-06 21:00:37,161 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 21:00:51,637 root            INFO     cv2.VideoCapture(0)
+2023-01-06 21:03:49,133 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 21:04:04,316 root            INFO     cv2.VideoCapture(0)
+2023-01-06 21:07:40,461 root            INFO     def init_app ():
+2023-01-06 21:07:40,508 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 21:10:46,211 root            INFO     connect_client_cam
+2023-01-06 21:10:46,242 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 21:10:47,951 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 21:10:48,259 root            INFO     NO CONECTA
+2023-01-06 21:10:49,265 root            INFO     CONECTA
+2023-01-06 21:10:59,302 root            INFO     connect_client_cam
+2023-01-06 21:10:59,380 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 21:11:01,362 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 21:11:01,692 root            INFO     NO CONECTA
+2023-01-06 21:11:02,699 root            INFO     CONECTA
+2023-01-06 21:11:04,644 root            INFO     BUZZER
+2023-01-06 21:11:04,662 root            INFO     recv_params_msg_json
+2023-01-06 21:11:04,670 root            INFO     SERVO
+2023-01-06 21:11:04,679 root            INFO     recv_params_msg_json
+2023-01-06 21:11:04,686 root            INFO     LED_STICK
+2023-01-06 21:11:04,692 root            INFO     recv_params_msg_json
+2023-01-06 21:11:04,699 root            INFO     DTTEMP
+2023-01-06 21:11:04,705 root            INFO     recv_temp_msg_json
+2023-01-06 21:11:04,712 root            INFO     DTLIGTH
+2023-01-06 21:11:24,378 root            INFO      temp_sensor ( )
+2023-01-06 21:11:24,387 root            INFO     ligth_intensity ( )
+2023-01-06 21:11:25,349 root            INFO     def init_app ():
+2023-01-06 21:11:25,376 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 21:11:42,175 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:11:42,180 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "OK"}
+2023-01-06 21:11:42,193 root            INFO     LOGIN
+2023-01-06 21:11:42,199 root            INFO     EVENT_LOGIN
+2023-01-06 21:11:42,205 root            INFO     OK
+2023-01-06 21:11:50,428 root            INFO     Evento: DTMOBIL
+2023-01-06 21:11:50,449 root            INFO     DTMOBIL
+2023-01-06 21:11:50,461 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 21:11:50,472 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 21:12:05,893 root            INFO     Evento: DTLIGTH
+2023-01-06 21:12:05,895 root            INFO     cv2.VideoCapture(0)
+2023-01-06 21:12:05,897 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:05,907 root            INFO     DTLIGTH
+2023-01-06 21:12:05,956 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 21:12:05,966 root            INFO     LED_STICK
+2023-01-06 21:12:05,975 root            INFO     EVENT_LED_STICK
+2023-01-06 21:12:05,982 root            INFO     recv_params_msg_json
+2023-01-06 21:12:05,997 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 2.48260498046875}
+2023-01-06 21:12:06,091 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:06,105 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:12:06,119 root            INFO     BUZZER
+2023-01-06 21:12:06,129 root            INFO     EVENT_BUZZER
+2023-01-06 21:12:06,139 root            INFO     recv_params_msg_json
+2023-01-06 21:12:09,618 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:09,642 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [128]}
+2023-01-06 21:12:09,650 root            INFO     LED_STICK
+2023-01-06 21:12:09,673 root            INFO     EVENT_LED_STICK
+2023-01-06 21:12:09,695 root            INFO     recv_params_msg_json
+2023-01-06 21:12:09,744 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:09,773 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTLIGTH", "ILight": 2.48260498046875}
+2023-01-06 21:12:09,780 root            INFO     DTLIGTH
+2023-01-06 21:12:09,826 root            INFO     EVENT_DTLIGTH
+2023-01-06 21:12:09,832 root            INFO     Se ha detectado un aluz interna con una intensidad de 2.48260498046875
+2023-01-06 21:12:09,851 root            INFO     Recuerde que por llevar luces internas encendidas le pueden multar con 200 euros.
+2023-01-06 21:12:11,042 root            INFO     Evento: DTLIGTH
+2023-01-06 21:12:11,167 root            INFO     DTLIGTH
+2023-01-06 21:12:11,311 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 2.62451171875}
+2023-01-06 21:12:12,509 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:12,589 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [128]}
+2023-01-06 21:12:12,600 root            INFO     LED_STICK
+2023-01-06 21:12:12,641 root            INFO     EVENT_LED_STICK
+2023-01-06 21:12:12,654 root            INFO     recv_params_msg_json
+2023-01-06 21:12:13,512 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:13,530 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTLIGTH", "ILight": 2.62451171875}
+2023-01-06 21:12:13,552 root            INFO     DTLIGTH
+2023-01-06 21:12:13,657 root            INFO     EVENT_DTLIGTH
+2023-01-06 21:12:13,720 root            INFO     Se ha detectado un aluz interna con una intensidad de 2.62451171875
+2023-01-06 21:12:13,901 root            INFO     Recuerde que por llevar luces internas encendidas le pueden multar con 200 euros.
+2023-01-06 21:12:15,019 root            INFO     Elapsed time: 8.775267839431763 seconds.
+2023-01-06 21:12:16,390 root            INFO     Evento: DTTEMP
+2023-01-06 21:12:16,397 root            INFO     DTTEMP
+2023-01-06 21:12:16,411 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -7.331911087036133}
+2023-01-06 21:12:17,549 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:17,575 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 21:12:17,597 root            INFO     LED_STICK
+2023-01-06 21:12:17,615 root            INFO     EVENT_LED_STICK
+2023-01-06 21:12:17,624 root            INFO     recv_params_msg_json
+2023-01-06 21:12:18,559 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:18,565 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -7.331911087036133}
+2023-01-06 21:12:18,584 root            INFO     DTTEMP
+2023-01-06 21:12:18,600 root            INFO     EVENT_DTTEMP
+2023-01-06 21:12:18,606 root            INFO     recv_temp_msg_json
+2023-01-06 21:12:18,613 root            INFO     Se ha detectado una temperatura de -7.331911087036133ºC
+2023-01-06 21:12:21,451 root            INFO     Evento: DTYAWN
+2023-01-06 21:12:21,460 root            INFO     DTYAWN
+2023-01-06 21:12:21,472 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:12:21,701 root            INFO     Elapsed time: 6.67001485824585 seconds.
+2023-01-06 21:12:22,611 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:22,617 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 21:12:22,636 root            INFO     LED_STICK
+2023-01-06 21:12:22,655 root            INFO     EVENT_LED_STICK
+2023-01-06 21:12:22,662 root            INFO     recv_params_msg_json
+2023-01-06 21:12:23,623 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:23,663 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 21:12:23,680 root            INFO     BUZZER
+2023-01-06 21:12:23,692 root            INFO     EVENT_BUZZER
+2023-01-06 21:12:23,711 root            INFO     recv_params_msg_json
+2023-01-06 21:12:26,531 root            INFO     Evento: DTTEMP
+2023-01-06 21:12:26,586 root            INFO     DTTEMP
+2023-01-06 21:12:26,629 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -7.394287109375}
+2023-01-06 21:12:27,775 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:27,846 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 21:12:27,853 root            INFO     LED_STICK
+2023-01-06 21:12:27,906 root            INFO     EVENT_LED_STICK
+2023-01-06 21:12:27,984 root            INFO     recv_params_msg_json
+2023-01-06 21:12:28,771 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:28,782 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -7.394287109375}
+2023-01-06 21:12:28,788 root            INFO     DTTEMP
+2023-01-06 21:12:28,796 root            INFO     EVENT_DTTEMP
+2023-01-06 21:12:28,802 root            INFO     recv_temp_msg_json
+2023-01-06 21:12:28,811 root            INFO     Se ha detectado una temperatura de -7.394287109375ºC
+2023-01-06 21:12:29,037 root            INFO     Elapsed time: 7.312349319458008 seconds.
+2023-01-06 21:12:31,679 root            INFO     Evento: DTYAWN
+2023-01-06 21:12:31,699 root            INFO     DTYAWN
+2023-01-06 21:12:31,725 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:12:32,873 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:32,904 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 21:12:32,911 root            INFO     LED_STICK
+2023-01-06 21:12:32,935 root            INFO     EVENT_LED_STICK
+2023-01-06 21:12:32,944 root            INFO     recv_params_msg_json
+2023-01-06 21:12:33,888 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:33,896 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 21:12:33,907 root            INFO     BUZZER
+2023-01-06 21:12:33,926 root            INFO     EVENT_BUZZER
+2023-01-06 21:12:33,950 root            INFO     recv_params_msg_json
+2023-01-06 21:12:36,680 root            INFO     Elapsed time: 7.625718116760254 seconds.
+2023-01-06 21:12:36,750 root            INFO     Evento: DTEATING
+2023-01-06 21:12:36,765 root            INFO     DTEATING
+2023-01-06 21:12:36,781 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:12:37,237 root            INFO      Cliente PYNQ:::>>> Thread 2522739616 - Processing on_message
+2023-01-06 21:12:37,245 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "NOK"}
+2023-01-06 21:12:37,264 root            INFO     LOGIN
+2023-01-06 21:12:37,278 root            INFO     EVENT_LOGIN
+2023-01-06 21:12:37,285 root            INFO     NOK
+2023-01-06 21:12:38,545 root            INFO     event:INFO,Blinks:0,COUNTER:0,EAR:0.3363459079508674
+2023-01-06 21:12:38,557 root            CRITICAL DTYAWN
+2023-01-06 21:12:38,570 root            CRITICAL event:INFO,Yawning:0,COUNTER:0,MAR:0.07353437639819611
+2023-01-06 21:12:41,262 root            INFO     Elapsed time: 4.572005033493042 seconds.
+2023-01-06 21:12:41,810 root            INFO     Evento: DTEATING
+2023-01-06 21:12:41,817 root            INFO     DTEATING
+2023-01-06 21:12:41,824 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:12:41,842 root            INFO     def close_app ():
+2023-01-06 21:12:41,920 root            INFO     disconnect_client_cam
+2023-01-06 21:22:29,262 root            INFO     connect_client_cam
+2023-01-06 21:22:29,298 root            INFO     Conexión Cliente_cam : HOSTdbd25372b1b647e895c3f4adb0260f4e.s2.eu.hivemq.cloud-port8883
+2023-01-06 21:22:35,300 root            INFO     def app_connect_hivemqtt_run ():
+2023-01-06 21:22:35,650 root            INFO     NO CONECTA
+2023-01-06 21:22:36,657 root            INFO     CONECTA
+2023-01-06 21:22:38,084 root            INFO     BUZZER
+2023-01-06 21:22:38,095 root            INFO     recv_params_msg_json
+2023-01-06 21:22:38,103 root            INFO     SERVO
+2023-01-06 21:22:38,109 root            INFO     recv_params_msg_json
+2023-01-06 21:22:38,116 root            INFO     LED_STICK
+2023-01-06 21:22:38,123 root            INFO     recv_params_msg_json
+2023-01-06 21:22:38,131 root            INFO     DTTEMP
+2023-01-06 21:22:38,138 root            INFO     recv_temp_msg_json
+2023-01-06 21:22:38,145 root            INFO     DTLIGTH
+2023-01-06 21:23:12,496 root            INFO      temp_sensor ( )
+2023-01-06 21:23:12,507 root            INFO     ligth_intensity ( )
+2023-01-06 21:23:13,464 root            INFO     def init_app ():
+2023-01-06 21:23:13,485 root            INFO     Cliente PYNQ:::>>>  subscribing_pynq ADASJG01/Pynq/#
+2023-01-06 21:23:39,933 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:23:39,938 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "DTC", "event": "LOGIN", "status": "OK"}
+2023-01-06 21:23:39,952 root            INFO     LOGIN
+2023-01-06 21:23:39,960 root            INFO     EVENT_LOGIN
+2023-01-06 21:23:39,965 root            INFO     OK
+2023-01-06 21:23:48,552 root            INFO     Evento: DTLIGTH
+2023-01-06 21:23:48,573 root            INFO     DTLIGTH
+2023-01-06 21:23:48,589 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 6.66351318359375}
+2023-01-06 21:23:48,592 root            INFO     [INFO] loading facial landmark predictor...
+2023-01-06 21:24:04,035 root            INFO     Evento: DTDRINK
+2023-01-06 21:24:04,036 root            INFO     cv2.VideoCapture(0)
+2023-01-06 21:24:04,039 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:04,055 root            INFO     DTDRINK
+2023-01-06 21:24:04,062 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 21:24:04,070 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [128]}
+2023-01-06 21:24:04,112 root            INFO     LED_STICK
+2023-01-06 21:24:04,120 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:04,127 root            INFO     recv_params_msg_json
+2023-01-06 21:24:04,200 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:04,205 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTLIGTH", "ILight": 6.66351318359375}
+2023-01-06 21:24:04,212 root            INFO     DTLIGTH
+2023-01-06 21:24:04,218 root            INFO     EVENT_DTLIGTH
+2023-01-06 21:24:04,227 root            INFO     Se ha detectado un aluz interna con una intensidad de 6.66351318359375
+2023-01-06 21:24:04,234 root            INFO     Recuerde que por llevar luces internas encendidas le pueden multar con 200 euros.
+2023-01-06 21:24:04,377 root            INFO     time0:1673040244.3771574
+2023-01-06 21:24:05,341 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:05,358 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 21:24:05,370 root            INFO     LED_STICK
+2023-01-06 21:24:05,382 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:05,389 root            INFO     recv_params_msg_json
+2023-01-06 21:24:06,348 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:06,356 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:24:06,378 root            INFO     BUZZER
+2023-01-06 21:24:06,385 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:06,391 root            INFO     recv_params_msg_json
+2023-01-06 21:24:06,886 root            INFO     event:INFO,Blinks:0,COUNTER:1,EAR:0.29700012178005664
+2023-01-06 21:24:06,936 root            CRITICAL DTYAWN
+2023-01-06 21:24:07,010 root            CRITICAL event:INFO,Yawning:0,COUNTER:0,MAR:0.1801826207453073
+2023-01-06 21:24:09,125 root            INFO     Evento: DTBLINK
+2023-01-06 21:24:09,145 root            INFO     DTBLINK
+2023-01-06 21:24:09,210 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTBLINK"}
+2023-01-06 21:24:11,125 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:11,133 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 21:24:11,149 root            INFO     LED_STICK
+2023-01-06 21:24:11,159 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:11,181 root            INFO     recv_params_msg_json
+2023-01-06 21:24:11,563 root            INFO     Elapsed time: 7.1862382888793945 seconds.
+2023-01-06 21:24:11,594 root            INFO     time0:1673040251.5941348
+2023-01-06 21:24:12,108 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:12,116 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 21:24:12,132 root            INFO     BUZZER
+2023-01-06 21:24:12,139 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:12,162 root            INFO     recv_params_msg_json
+2023-01-06 21:24:13,379 root            INFO     event:INFO,Blinks:0,COUNTER:2,EAR:0.29875595879707373
+2023-01-06 21:24:13,391 root            CRITICAL DTYAWN
+2023-01-06 21:24:13,399 root            CRITICAL event:INFO,Yawning:0,COUNTER:0,MAR:0.117173760521793
+2023-01-06 21:24:14,269 root            INFO     Evento: DTSMOKING
+2023-01-06 21:24:14,286 root            INFO     DTSMOKING
+2023-01-06 21:24:14,298 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 21:24:15,463 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:15,473 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 21:24:15,493 root            INFO     LED_STICK
+2023-01-06 21:24:15,512 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:15,548 root            INFO     recv_params_msg_json
+2023-01-06 21:24:16,172 root            INFO     Elapsed time: 4.5783679485321045 seconds.
+2023-01-06 21:24:16,185 root            INFO     time0:1673040256.185451
+2023-01-06 21:24:16,463 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:16,472 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:24:16,492 root            INFO     BUZZER
+2023-01-06 21:24:16,497 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:16,503 root            INFO     recv_params_msg_json
+2023-01-06 21:24:18,124 root            INFO     DTBLINK
+2023-01-06 21:24:18,162 root            INFO     event:BLINK,total:1,mtotal:0
+2023-01-06 21:24:18,207 root            INFO     event:INFO,Blinks:1,COUNTER:0,EAR:0.30925335218130223
+2023-01-06 21:24:18,218 root            CRITICAL DTYAWN
+2023-01-06 21:24:18,313 root            CRITICAL event:INFO,Yawning:0,COUNTER:0,MAR:0.09444395074663099
+2023-01-06 21:24:19,362 root            INFO     Evento: DTSMOKING
+2023-01-06 21:24:19,368 root            INFO     DTSMOKING
+2023-01-06 21:24:19,387 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 21:24:20,995 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:21,026 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 21:24:21,045 root            INFO     LED_STICK
+2023-01-06 21:24:21,053 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:21,060 root            INFO     recv_params_msg_json
+2023-01-06 21:24:21,738 root            INFO     Elapsed time: 5.552380084991455 seconds.
+2023-01-06 21:24:21,758 root            INFO     time0:1673040261.7587059
+2023-01-06 21:24:21,998 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:22,008 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:24:22,021 root            INFO     BUZZER
+2023-01-06 21:24:22,038 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:22,044 root            INFO     recv_params_msg_json
+2023-01-06 21:24:23,692 root            INFO     event:INFO,Blinks:1,COUNTER:0,EAR:0.31790536289747395
+2023-01-06 21:24:23,767 root            CRITICAL DTYAWN
+2023-01-06 21:24:23,820 root            CRITICAL event:INFO,Yawning:0,COUNTER:0,MAR:0.07081176792985476
+2023-01-06 21:24:24,454 root            INFO     Evento: DTLIGTH
+2023-01-06 21:24:24,472 root            INFO     DTLIGTH
+2023-01-06 21:24:24,799 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 0.0}
+2023-01-06 21:24:26,539 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:26,546 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [128]}
+2023-01-06 21:24:26,563 root            INFO     LED_STICK
+2023-01-06 21:24:26,583 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:26,589 root            INFO     recv_params_msg_json
+2023-01-06 21:24:27,335 root            INFO     Elapsed time: 5.576131343841553 seconds.
+2023-01-06 21:24:27,346 root            INFO     time0:1673040267.3467522
+2023-01-06 21:24:27,536 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:27,544 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTLIGTH", "ILight": 0.0}
+2023-01-06 21:24:27,556 root            INFO     DTLIGTH
+2023-01-06 21:24:27,568 root            INFO     EVENT_DTLIGTH
+2023-01-06 21:24:27,580 root            INFO     Se ha detectado un aluz interna con una intensidad de 0.0
+2023-01-06 21:24:27,587 root            INFO     Recuerde que por llevar luces internas encendidas le pueden multar con 200 euros.
+2023-01-06 21:24:29,019 root            INFO     event:INFO,Blinks:1,COUNTER:1,EAR:0.2751289516237314
+2023-01-06 21:24:29,027 root            CRITICAL DTYAWN
+2023-01-06 21:24:29,042 root            CRITICAL event:INFO,Yawning:0,COUNTER:0,MAR:0.07798128673650545
+2023-01-06 21:24:29,859 root            INFO     Evento: DTTEMP
+2023-01-06 21:24:29,875 root            INFO     DTTEMP
+2023-01-06 21:24:29,891 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -7.552753448486328}
+2023-01-06 21:24:31,020 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:31,035 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 21:24:31,046 root            INFO     LED_STICK
+2023-01-06 21:24:31,064 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:31,088 root            INFO     recv_params_msg_json
+2023-01-06 21:24:31,746 root            INFO     Elapsed time: 4.399871110916138 seconds.
+2023-01-06 21:24:31,759 root            INFO     time0:1673040271.7590125
+2023-01-06 21:24:32,017 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:32,027 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -7.552753448486328}
+2023-01-06 21:24:32,042 root            INFO     DTTEMP
+2023-01-06 21:24:32,047 root            INFO     EVENT_DTTEMP
+2023-01-06 21:24:32,058 root            INFO     recv_temp_msg_json
+2023-01-06 21:24:32,069 root            INFO     Se ha detectado una temperatura de -7.552753448486328ºC
+2023-01-06 21:24:33,577 root            INFO     event:INFO,Blinks:1,COUNTER:2,EAR:0.2831758823244519
+2023-01-06 21:24:33,588 root            CRITICAL DTYAWN
+2023-01-06 21:24:33,598 root            CRITICAL event:INFO,Yawning:0,COUNTER:0,MAR:0.04090824570613411
+2023-01-06 21:24:34,922 root            INFO     Evento: DTSMOKING
+2023-01-06 21:24:35,003 root            INFO     DTSMOKING
+2023-01-06 21:24:35,047 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 21:24:36,246 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:36,266 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 21:24:36,272 root            INFO     LED_STICK
+2023-01-06 21:24:36,288 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:36,296 root            INFO     recv_params_msg_json
+2023-01-06 21:24:36,457 root            INFO     Elapsed time: 4.6979711055755615 seconds.
+2023-01-06 21:24:36,476 root            INFO     time0:1673040276.4762475
+2023-01-06 21:24:37,260 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:37,268 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:24:37,283 root            INFO     BUZZER
+2023-01-06 21:24:37,295 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:37,308 root            INFO     recv_params_msg_json
+2023-01-06 21:24:38,284 root            INFO     DTBLINK
+2023-01-06 21:24:38,336 root            INFO     event:BLINK,total:2,mtotal:0
+2023-01-06 21:24:38,354 root            INFO     event:INFO,Blinks:2,COUNTER:0,EAR:0.37201011882009927
+2023-01-06 21:24:38,372 root            INFO     event:Yawning,total:2,mtotal:0
+2023-01-06 21:24:38,384 root            CRITICAL DTYAWN
+2023-01-06 21:24:38,405 root            CRITICAL event:INFO,Yawning:0,COUNTER:1,MAR:0.6874692912589336
+2023-01-06 21:24:40,145 root            INFO     Evento: DTYAWN
+2023-01-06 21:24:40,174 root            INFO     DTYAWN
+2023-01-06 21:24:40,210 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:24:42,024 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:42,035 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 21:24:42,042 root            INFO     LED_STICK
+2023-01-06 21:24:42,048 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:42,055 root            INFO     recv_params_msg_json
+2023-01-06 21:24:42,361 root            INFO     Elapsed time: 5.884845972061157 seconds.
+2023-01-06 21:24:42,374 root            INFO     time0:1673040282.3741598
+2023-01-06 21:24:43,041 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:43,056 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 21:24:43,068 root            INFO     BUZZER
+2023-01-06 21:24:43,074 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:43,085 root            INFO     recv_params_msg_json
+2023-01-06 21:24:44,162 root            INFO     event:INFO,Blinks:2,COUNTER:0,EAR:0.3059636597689993
+2023-01-06 21:24:44,172 root            INFO     event:Yawning,total:2,mtotal:0
+2023-01-06 21:24:44,186 root            CRITICAL DTYAWN
+2023-01-06 21:24:44,199 root            CRITICAL event:INFO,Yawning:0,COUNTER:2,MAR:1.0045374871188677
+2023-01-06 21:24:45,355 root            INFO     Evento: DTTEMP
+2023-01-06 21:24:45,466 root            INFO     DTTEMP
+2023-01-06 21:24:45,566 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -7.595188140869141}
+2023-01-06 21:24:46,801 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:46,815 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711935]}
+2023-01-06 21:24:46,820 root            INFO     LED_STICK
+2023-01-06 21:24:46,841 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:46,847 root            INFO     recv_params_msg_json
+2023-01-06 21:24:47,088 root            INFO     Elapsed time: 4.714014768600464 seconds.
+2023-01-06 21:24:47,108 root            INFO     time0:1673040287.1086552
+2023-01-06 21:24:47,819 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:47,828 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "DTTEMP", "Temp": -7.595188140869141}
+2023-01-06 21:24:47,834 root            INFO     DTTEMP
+2023-01-06 21:24:47,841 root            INFO     EVENT_DTTEMP
+2023-01-06 21:24:47,847 root            INFO     recv_temp_msg_json
+2023-01-06 21:24:47,854 root            INFO     Se ha detectado una temperatura de -7.595188140869141ºC
+2023-01-06 21:24:48,816 root            INFO     event:INFO,Blinks:2,COUNTER:1,EAR:0.16432189111643197
+2023-01-06 21:24:48,822 root            CRITICAL event:YAWN,total:2,mtotal:1
+2023-01-06 21:24:48,843 root            CRITICAL DTYAWN
+2023-01-06 21:24:48,850 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.02416096769141133
+2023-01-06 21:24:50,689 root            INFO     Evento: DTMOBIL
+2023-01-06 21:24:50,709 root            INFO     DTMOBIL
+2023-01-06 21:24:50,713 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 21:24:51,584 root            INFO     Elapsed time: 4.475956439971924 seconds.
+2023-01-06 21:24:51,597 root            INFO     time0:1673040291.5968575
+2023-01-06 21:24:51,838 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:51,856 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 21:24:51,866 root            INFO     LED_STICK
+2023-01-06 21:24:51,878 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:51,890 root            INFO     recv_params_msg_json
+2023-01-06 21:24:52,843 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:52,850 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:24:52,866 root            INFO     BUZZER
+2023-01-06 21:24:52,872 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:52,891 root            INFO     recv_params_msg_json
+2023-01-06 21:24:53,543 root            INFO     event:INFO,Blinks:2,COUNTER:2,EAR:0.26264716346636297
+2023-01-06 21:24:53,635 root            CRITICAL DTYAWN
+2023-01-06 21:24:53,709 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.029317297129392288
+2023-01-06 21:24:55,746 root            INFO     Evento: DTYAWN
+2023-01-06 21:24:55,758 root            INFO     DTYAWN
+2023-01-06 21:24:55,793 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:24:57,634 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:57,654 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 21:24:57,668 root            INFO     LED_STICK
+2023-01-06 21:24:57,688 root            INFO     EVENT_LED_STICK
+2023-01-06 21:24:57,707 root            INFO     recv_params_msg_json
+2023-01-06 21:24:57,776 root            INFO     Elapsed time: 6.179569721221924 seconds.
+2023-01-06 21:24:57,789 root            INFO     time0:1673040297.7894955
+2023-01-06 21:24:58,639 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:24:58,653 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 21:24:58,665 root            INFO     BUZZER
+2023-01-06 21:24:58,678 root            INFO     EVENT_BUZZER
+2023-01-06 21:24:58,685 root            INFO     recv_params_msg_json
+2023-01-06 21:24:59,651 root            INFO     event:INFO,Blinks:2,COUNTER:3,EAR:0.1920598997700443
+2023-01-06 21:24:59,716 root            CRITICAL DTYAWN
+2023-01-06 21:24:59,723 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.05536017263275695
+2023-01-06 21:25:00,837 root            INFO     Evento: DTMOBIL
+2023-01-06 21:25:00,846 root            INFO     DTMOBIL
+2023-01-06 21:25:00,864 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 21:25:02,030 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:02,043 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 21:25:02,066 root            INFO     LED_STICK
+2023-01-06 21:25:02,073 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:02,097 root            INFO     recv_params_msg_json
+2023-01-06 21:25:02,657 root            INFO     Elapsed time: 4.8676111698150635 seconds.
+2023-01-06 21:25:02,667 root            INFO     time0:1673040302.667573
+2023-01-06 21:25:03,031 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:03,044 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:25:03,049 root            INFO     BUZZER
+2023-01-06 21:25:03,070 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:03,076 root            INFO     recv_params_msg_json
+2023-01-06 21:25:04,607 root            INFO     event:INFO,Blinks:2,COUNTER:4,EAR:0.19545279306300517
+2023-01-06 21:25:04,670 root            CRITICAL DTYAWN
+2023-01-06 21:25:04,694 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.03758197228056353
+2023-01-06 21:25:05,904 root            INFO     Evento: DTEATING
+2023-01-06 21:25:05,912 root            INFO     DTEATING
+2023-01-06 21:25:05,958 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:25:07,719 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:07,726 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [32768]}
+2023-01-06 21:25:07,783 root            INFO     LED_STICK
+2023-01-06 21:25:07,801 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:07,818 root            INFO     recv_params_msg_json
+2023-01-06 21:25:08,364 root            INFO     Elapsed time: 5.696635723114014 seconds.
+2023-01-06 21:25:08,383 root            INFO     time0:1673040308.3831732
+2023-01-06 21:25:08,715 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:08,724 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "1"]}
+2023-01-06 21:25:08,730 root            INFO     BUZZER
+2023-01-06 21:25:08,737 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:08,743 root            INFO     recv_params_msg_json
+2023-01-06 21:25:10,289 root            INFO     event:INFO,Blinks:2,COUNTER:5,EAR:0.2478120072392946
+2023-01-06 21:25:10,301 root            CRITICAL DTYAWN
+2023-01-06 21:25:10,312 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.0739292634333695
+2023-01-06 21:25:11,000 root            INFO     Evento: DTMOBIL
+2023-01-06 21:25:11,007 root            INFO     DTMOBIL
+2023-01-06 21:25:11,028 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTMOBIL"}
+2023-01-06 21:25:12,178 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:12,194 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16711680]}
+2023-01-06 21:25:12,199 root            INFO     LED_STICK
+2023-01-06 21:25:12,212 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:12,223 root            INFO     recv_params_msg_json
+2023-01-06 21:25:13,171 root            INFO     Elapsed time: 4.788273811340332 seconds.
+2023-01-06 21:25:13,182 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:13,189 root            INFO     time0:1673040313.189725
+2023-01-06 21:25:13,196 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:25:13,202 root            INFO     BUZZER
+2023-01-06 21:25:13,219 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:13,225 root            INFO     recv_params_msg_json
+2023-01-06 21:25:15,029 root            INFO     event:INFO,Blinks:2,COUNTER:6,EAR:0.22261080528968408
+2023-01-06 21:25:15,107 root            CRITICAL DTYAWN
+2023-01-06 21:25:15,170 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.21015584415038122
+2023-01-06 21:25:16,076 root            INFO     Evento: DTYAWN
+2023-01-06 21:25:16,123 root            INFO     DTYAWN
+2023-01-06 21:25:16,134 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:25:17,894 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:17,911 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65280]}
+2023-01-06 21:25:17,919 root            INFO     LED_STICK
+2023-01-06 21:25:17,928 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:17,936 root            INFO     recv_params_msg_json
+2023-01-06 21:25:18,647 root            INFO     Elapsed time: 5.45804500579834 seconds.
+2023-01-06 21:25:18,664 root            INFO     time0:1673040318.6643083
+2023-01-06 21:25:18,893 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:18,909 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,B,C,d,e,f,g,A,B,C", "2,2,2,1,1,1,1,2,2,2", "12", "1"]}
+2023-01-06 21:25:18,919 root            INFO     BUZZER
+2023-01-06 21:25:18,931 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:18,942 root            INFO     recv_params_msg_json
+2023-01-06 21:25:20,391 root            INFO     event:INFO,Blinks:2,COUNTER:7,EAR:0.25055514713815324
+2023-01-06 21:25:20,403 root            CRITICAL DTYAWN
+2023-01-06 21:25:20,415 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.4945634519736263
+2023-01-06 21:25:21,195 root            INFO     Evento: DTDRINK
+2023-01-06 21:25:21,202 root            INFO     DTDRINK
+2023-01-06 21:25:21,217 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 21:25:22,349 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:22,365 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 21:25:22,370 root            INFO     LED_STICK
+2023-01-06 21:25:22,392 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:22,398 root            INFO     recv_params_msg_json
+2023-01-06 21:25:23,268 root            INFO     Elapsed time: 4.603828430175781 seconds.
+2023-01-06 21:25:23,282 root            INFO     time0:1673040323.282235
+2023-01-06 21:25:23,355 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:23,362 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:25:23,398 root            INFO     BUZZER
+2023-01-06 21:25:23,408 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:23,416 root            INFO     recv_params_msg_json
+2023-01-06 21:25:25,278 root            INFO     event:INFO,Blinks:2,COUNTER:8,EAR:0.24590809836781802
+2023-01-06 21:25:25,364 root            CRITICAL DTYAWN
+2023-01-06 21:25:25,448 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.048215420201552325
+2023-01-06 21:25:26,252 root            INFO     Evento: DTEATING
+2023-01-06 21:25:26,274 root            INFO     DTEATING
+2023-01-06 21:25:26,304 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:25:27,991 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:28,009 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [32768]}
+2023-01-06 21:25:28,021 root            INFO     LED_STICK
+2023-01-06 21:25:28,033 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:28,045 root            INFO     recv_params_msg_json
+2023-01-06 21:25:28,918 root            INFO     Elapsed time: 5.6362738609313965 seconds.
+2023-01-06 21:25:28,932 root            INFO     time0:1673040328.9325047
+2023-01-06 21:25:28,994 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:29,004 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "1"]}
+2023-01-06 21:25:29,021 root            INFO     BUZZER
+2023-01-06 21:25:29,028 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:29,047 root            INFO     recv_params_msg_json
+2023-01-06 21:25:30,669 root            INFO     event:INFO,Blinks:2,COUNTER:9,EAR:0.2475028626058147
+2023-01-06 21:25:30,680 root            CRITICAL DTYAWN
+2023-01-06 21:25:30,687 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.05312530274175069
+2023-01-06 21:25:31,366 root            INFO     Evento: DTDRINK
+2023-01-06 21:25:31,378 root            INFO     DTDRINK
+2023-01-06 21:25:31,393 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 21:25:32,531 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:32,547 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [65535]}
+2023-01-06 21:25:32,552 root            INFO     LED_STICK
+2023-01-06 21:25:32,571 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:32,577 root            INFO     recv_params_msg_json
+2023-01-06 21:25:33,494 root            INFO     Elapsed time: 4.562263250350952 seconds.
+2023-01-06 21:25:33,503 root            INFO     time0:1673040333.502887
+2023-01-06 21:25:33,540 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:33,553 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["a,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:25:33,565 root            INFO     BUZZER
+2023-01-06 21:25:33,578 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:33,589 root            INFO     recv_params_msg_json
+2023-01-06 21:25:35,556 root            INFO     event:INFO,Blinks:2,COUNTER:10,EAR:0.2718676774210599
+2023-01-06 21:25:35,620 root            CRITICAL DTYAWN
+2023-01-06 21:25:35,642 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.03405574568898749
+2023-01-06 21:25:36,445 root            INFO     Evento: DTSMOKING
+2023-01-06 21:25:36,467 root            INFO     DTSMOKING
+2023-01-06 21:25:36,598 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 21:25:38,191 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:38,219 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "LED_STICK", "paramms": [16776960]}
+2023-01-06 21:25:38,232 root            INFO     LED_STICK
+2023-01-06 21:25:38,251 root            INFO     EVENT_LED_STICK
+2023-01-06 21:25:38,264 root            INFO     recv_params_msg_json
+2023-01-06 21:25:39,095 root            INFO     Elapsed time: 5.592146158218384 seconds.
+2023-01-06 21:25:39,111 root            INFO     time0:1673040339.1112876
+2023-01-06 21:25:39,200 root            INFO      Cliente PYNQ:::>>> Thread 2469049248 - Processing on_message
+2023-01-06 21:25:39,216 root            INFO      Cliente PYNQ:::>>> Message received ADASJG01/Pynq/ from topic {"clientid": "Client_01", "action": "RTC", "event": "BUZZER", "paramms": ["A,b,c,d,e,f,g,A", "1,1,1,1,1,1,2,1", "10", "3"]}
+2023-01-06 21:25:39,231 root            INFO     BUZZER
+2023-01-06 21:25:39,237 root            INFO     EVENT_BUZZER
+2023-01-06 21:25:39,244 root            INFO     recv_params_msg_json
+2023-01-06 21:25:40,908 root            INFO     event:INFO,Blinks:2,COUNTER:11,EAR:0.2920492951421606
+2023-01-06 21:25:40,975 root            CRITICAL DTYAWN
+2023-01-06 21:25:41,012 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.034630997503171765
+2023-01-06 21:25:41,718 root            INFO     Evento: DTSMOKING
+2023-01-06 21:25:41,769 root            INFO     DTSMOKING
+2023-01-06 21:25:41,784 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 21:25:44,512 root            INFO     Elapsed time: 5.401008129119873 seconds.
+2023-01-06 21:25:44,523 root            INFO     time0:1673040344.523176
+2023-01-06 21:25:46,178 root            INFO     DTBLINK
+2023-01-06 21:25:46,197 root            INFO     event:BLINK,total:3,mtotal:1
+2023-01-06 21:25:46,206 root            INFO     event:INFO,Blinks:3,COUNTER:0,EAR:0.3451347147052666
+2023-01-06 21:25:46,227 root            CRITICAL DTYAWN
+2023-01-06 21:25:46,234 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.022788256694917797
+2023-01-06 21:25:46,879 root            INFO     Evento: DTEATING
+2023-01-06 21:25:46,894 root            INFO     DTEATING
+2023-01-06 21:25:46,911 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:25:49,220 root            INFO     Elapsed time: 4.696671962738037 seconds.
+2023-01-06 21:25:49,231 root            INFO     time0:1673040349.231572
+2023-01-06 21:25:50,906 root            INFO     event:INFO,Blinks:3,COUNTER:0,EAR:0.3363986808936816
+2023-01-06 21:25:50,922 root            CRITICAL DTYAWN
+2023-01-06 21:25:50,929 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.04985846739062781
+2023-01-06 21:25:51,953 root            INFO     Evento: DTEATING
+2023-01-06 21:25:52,021 root            INFO     DTEATING
+2023-01-06 21:25:52,027 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:25:53,834 root            INFO     Elapsed time: 4.603008270263672 seconds.
+2023-01-06 21:25:53,864 root            INFO     time0:1673040353.8641686
+2023-01-06 21:25:55,663 root            INFO     event:INFO,Blinks:3,COUNTER:1,EAR:0.15916100949500805
+2023-01-06 21:25:55,671 root            CRITICAL DTYAWN
+2023-01-06 21:25:55,683 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.0680221655070698
+2023-01-06 21:25:57,098 root            INFO     Evento: DTLIGTH
+2023-01-06 21:25:57,187 root            INFO     DTLIGTH
+2023-01-06 21:25:57,291 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 6.84661865234375}
+2023-01-06 21:25:58,574 root            INFO     Elapsed time: 4.710328817367554 seconds.
+2023-01-06 21:25:58,583 root            INFO     time0:1673040358.5838337
+2023-01-06 21:26:00,385 root            INFO     event:INFO,Blinks:3,COUNTER:2,EAR:0.2502998623850305
+2023-01-06 21:26:00,396 root            CRITICAL DTYAWN
+2023-01-06 21:26:00,408 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.07511983834974671
+2023-01-06 21:26:02,368 root            INFO     Evento: DTLIGTH
+2023-01-06 21:26:02,384 root            INFO     DTLIGTH
+2023-01-06 21:26:02,422 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 6.84661865234375}
+2023-01-06 21:26:03,306 root            INFO     Elapsed time: 4.722027778625488 seconds.
+2023-01-06 21:26:03,318 root            INFO     time0:1673040363.3182168
+2023-01-06 21:26:04,990 root            INFO     event:INFO,Blinks:3,COUNTER:3,EAR:0.1829891498578076
+2023-01-06 21:26:04,998 root            CRITICAL DTYAWN
+2023-01-06 21:26:05,004 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.018758282602319768
+2023-01-06 21:26:07,448 root            INFO     Evento: DTYAWN
+2023-01-06 21:26:07,455 root            INFO     DTYAWN
+2023-01-06 21:26:07,470 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:26:07,806 root            INFO     Elapsed time: 4.487825393676758 seconds.
+2023-01-06 21:26:07,821 root            INFO     time0:1673040367.8214014
+2023-01-06 21:26:09,626 root            INFO     event:INFO,Blinks:3,COUNTER:4,EAR:0.135069104060082
+2023-01-06 21:26:09,636 root            CRITICAL DTYAWN
+2023-01-06 21:26:09,646 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.1349019971473213
+2023-01-06 21:26:12,435 root            INFO     Elapsed time: 4.61360239982605 seconds.
+2023-01-06 21:26:12,445 root            INFO     time0:1673040372.445685
+2023-01-06 21:26:12,508 root            INFO     Evento: DTYAWN
+2023-01-06 21:26:12,517 root            INFO     DTYAWN
+2023-01-06 21:26:12,534 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:26:14,140 root            INFO     event:INFO,Blinks:3,COUNTER:5,EAR:0.17336212113339328
+2023-01-06 21:26:14,152 root            CRITICAL DTYAWN
+2023-01-06 21:26:14,160 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.07733936369874927
+2023-01-06 21:26:17,025 root            INFO     Elapsed time: 4.579268217086792 seconds.
+2023-01-06 21:26:17,033 root            INFO     time0:1673040377.0331523
+2023-01-06 21:26:17,555 root            INFO     Evento: DTLIGTH
+2023-01-06 21:26:17,562 root            INFO     DTLIGTH
+2023-01-06 21:26:17,574 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 6.81610107421875}
+2023-01-06 21:26:18,823 root            INFO     event:INFO,Blinks:3,COUNTER:6,EAR:0.24042210510489986
+2023-01-06 21:26:18,834 root            CRITICAL DTYAWN
+2023-01-06 21:26:18,843 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.09791341768681622
+2023-01-06 21:26:21,629 root            INFO     Elapsed time: 4.59601354598999 seconds.
+2023-01-06 21:26:21,656 root            INFO     time0:1673040381.6560526
+2023-01-06 21:26:22,616 root            INFO     Evento: DTEATING
+2023-01-06 21:26:22,623 root            INFO     DTEATING
+2023-01-06 21:26:22,641 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:26:23,323 root            INFO     event:INFO,Blinks:3,COUNTER:7,EAR:0.2410726960804187
+2023-01-06 21:26:23,333 root            CRITICAL DTYAWN
+2023-01-06 21:26:23,343 root            CRITICAL event:INFO,Yawning:1,COUNTER:0,MAR:0.07940510210053552
+2023-01-06 21:26:26,124 root            INFO     Elapsed time: 4.4685869216918945 seconds.
+2023-01-06 21:26:26,140 root            INFO     time0:1673040386.1402686
+2023-01-06 21:26:27,671 root            INFO     Evento: DTEATING
+2023-01-06 21:26:27,681 root            INFO     DTEATING
+2023-01-06 21:26:27,693 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:26:27,801 root            INFO     event:INFO,Blinks:3,COUNTER:8,EAR:0.28779385468469015
+2023-01-06 21:26:27,807 root            INFO     event:Yawning,total:3,mtotal:1
+2023-01-06 21:26:27,821 root            CRITICAL DTYAWN
+2023-01-06 21:26:27,826 root            CRITICAL event:INFO,Yawning:1,COUNTER:1,MAR:0.9926412775705031
+2023-01-06 21:26:30,616 root            INFO     Elapsed time: 4.475640773773193 seconds.
+2023-01-06 21:26:30,649 root            INFO     time0:1673040390.6496122
+2023-01-06 21:26:32,468 root            INFO     event:INFO,Blinks:3,COUNTER:9,EAR:0.2723952188657942
+2023-01-06 21:26:32,476 root            INFO     event:Yawning,total:3,mtotal:1
+2023-01-06 21:26:32,484 root            CRITICAL DTYAWN
+2023-01-06 21:26:32,494 root            CRITICAL event:INFO,Yawning:1,COUNTER:2,MAR:0.8365076921533093
+2023-01-06 21:26:32,743 root            INFO     Evento: DTDRINK
+2023-01-06 21:26:32,754 root            INFO     DTDRINK
+2023-01-06 21:26:32,771 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 21:26:35,393 root            INFO     Elapsed time: 4.743915319442749 seconds.
+2023-01-06 21:26:35,403 root            INFO     time0:1673040395.4032333
+2023-01-06 21:26:37,315 root            INFO     DTBLINK
+2023-01-06 21:26:37,320 root            INFO     event:BLINK,total:4,mtotal:1
+2023-01-06 21:26:37,336 root            INFO     event:INFO,Blinks:4,COUNTER:0,EAR:0.3007265661102471
+2023-01-06 21:26:37,350 root            INFO     event:Yawning,total:4,mtotal:1
+2023-01-06 21:26:37,357 root            CRITICAL DTYAWN
+2023-01-06 21:26:37,364 root            CRITICAL event:INFO,Yawning:1,COUNTER:3,MAR:0.9171140133609383
+2023-01-06 21:26:37,810 root            INFO     Evento: DTEATING
+2023-01-06 21:26:37,818 root            INFO     DTEATING
+2023-01-06 21:26:37,838 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:26:40,381 root            INFO     Elapsed time: 4.977859020233154 seconds.
+2023-01-06 21:26:40,396 root            INFO     time0:1673040400.3967466
+2023-01-06 21:26:42,099 root            INFO     event:INFO,Blinks:4,COUNTER:0,EAR:0.3051352744605579
+2023-01-06 21:26:42,105 root            INFO     event:Yawning,total:4,mtotal:1
+2023-01-06 21:26:42,114 root            CRITICAL DTYAWN
+2023-01-06 21:26:42,120 root            CRITICAL event:INFO,Yawning:1,COUNTER:4,MAR:0.8479802723372292
+2023-01-06 21:26:42,869 root            INFO     Evento: DTEATING
+2023-01-06 21:26:42,880 root            INFO     DTEATING
+2023-01-06 21:26:42,904 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:26:44,927 root            INFO     Elapsed time: 4.530559301376343 seconds.
+2023-01-06 21:26:44,949 root            INFO     time0:1673040404.948809
+2023-01-06 21:26:46,763 root            INFO     event:INFO,Blinks:4,COUNTER:1,EAR:0.29446609166480187
+2023-01-06 21:26:46,769 root            CRITICAL event:YAWN,total:4,mtotal:2
+2023-01-06 21:26:46,793 root            CRITICAL DTYAWN
+2023-01-06 21:26:46,799 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.3900515803597655
+2023-01-06 21:26:47,927 root            INFO     Evento: DTYAWN
+2023-01-06 21:26:47,938 root            INFO     DTYAWN
+2023-01-06 21:26:47,991 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTYAWN"}
+2023-01-06 21:26:49,740 root            INFO     Elapsed time: 4.791386604309082 seconds.
+2023-01-06 21:26:49,759 root            INFO     time0:1673040409.758858
+2023-01-06 21:26:51,576 root            INFO     event:INFO,Blinks:4,COUNTER:2,EAR:0.2003072249003185
+2023-01-06 21:26:51,586 root            CRITICAL DTYAWN
+2023-01-06 21:26:51,603 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.023288724957287676
+2023-01-06 21:26:53,062 root            INFO     Evento: DTDRINK
+2023-01-06 21:26:53,166 root            INFO     DTDRINK
+2023-01-06 21:26:53,176 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 21:26:54,431 root            INFO     Elapsed time: 4.672051668167114 seconds.
+2023-01-06 21:26:54,444 root            INFO     time0:1673040414.4442348
+2023-01-06 21:26:56,233 root            INFO     event:INFO,Blinks:4,COUNTER:3,EAR:0.2960221607879724
+2023-01-06 21:26:56,245 root            CRITICAL DTYAWN
+2023-01-06 21:26:56,256 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.048105563218946844
+2023-01-06 21:26:58,243 root            INFO     Evento: DTLIGTH
+2023-01-06 21:26:58,271 root            INFO     DTLIGTH
+2023-01-06 21:26:58,285 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 6.89544677734375}
+2023-01-06 21:26:59,094 root            INFO     Elapsed time: 4.64995265007019 seconds.
+2023-01-06 21:26:59,114 root            INFO     time0:1673040419.114174
+2023-01-06 21:27:00,789 root            INFO     event:INFO,Blinks:4,COUNTER:4,EAR:0.28659633389748196
+2023-01-06 21:27:00,798 root            CRITICAL DTYAWN
+2023-01-06 21:27:00,804 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.10023574810195816
+2023-01-06 21:27:03,358 root            INFO     Evento: DTDRINK
+2023-01-06 21:27:03,509 root            INFO     DTDRINK
+2023-01-06 21:27:03,573 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTDRINK"}
+2023-01-06 21:27:05,022 root            INFO     Elapsed time: 5.9078967571258545 seconds.
+2023-01-06 21:27:05,040 root            INFO     time0:1673040425.0402725
+2023-01-06 21:27:06,832 root            INFO     event:INFO,Blinks:4,COUNTER:5,EAR:0.24425882345232466
+2023-01-06 21:27:06,847 root            CRITICAL DTYAWN
+2023-01-06 21:27:06,864 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.09336477764488371
+2023-01-06 21:27:08,699 root            INFO     Evento: DTSMOKING
+2023-01-06 21:27:08,706 root            INFO     DTSMOKING
+2023-01-06 21:27:08,728 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTSMOKING"}
+2023-01-06 21:27:09,651 root            INFO     Elapsed time: 4.610868692398071 seconds.
+2023-01-06 21:27:09,664 root            INFO     time0:1673040429.6639817
+2023-01-06 21:27:11,329 root            INFO     event:INFO,Blinks:4,COUNTER:6,EAR:0.26403373964246624
+2023-01-06 21:27:11,338 root            CRITICAL DTYAWN
+2023-01-06 21:27:11,350 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.09003903422516485
+2023-01-06 21:27:13,756 root            INFO     Evento: DTTEMP
+2023-01-06 21:27:13,767 root            INFO     DTTEMP
+2023-01-06 21:27:13,786 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -7.575218200683594}
+2023-01-06 21:27:14,152 root            INFO     Elapsed time: 4.488138675689697 seconds.
+2023-01-06 21:27:14,163 root            INFO     time0:1673040434.1637068
+2023-01-06 21:27:15,949 root            INFO     event:INFO,Blinks:4,COUNTER:7,EAR:0.25792373091555126
+2023-01-06 21:27:15,959 root            CRITICAL DTYAWN
+2023-01-06 21:27:15,966 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.08291059630075519
+2023-01-06 21:27:18,814 root            INFO     Evento: DTTEMP
+2023-01-06 21:27:18,820 root            INFO     DTTEMP
+2023-01-06 21:27:18,828 root            INFO     Elapsed time: 4.6644651889801025 seconds.
+2023-01-06 21:27:18,849 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTTEMP", "Temp": -7.581459045410156}
+2023-01-06 21:27:18,857 root            INFO     time0:1673040438.8572245
+2023-01-06 21:27:20,670 root            INFO     event:INFO,Blinks:4,COUNTER:8,EAR:0.2634014098686288
+2023-01-06 21:27:20,681 root            CRITICAL DTYAWN
+2023-01-06 21:27:20,689 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.026020269542287682
+2023-01-06 21:27:23,473 root            INFO     Elapsed time: 4.615931749343872 seconds.
+2023-01-06 21:27:23,491 root            INFO     time0:1673040443.4910421
+2023-01-06 21:27:23,877 root            INFO     Evento: DTLIGTH
+2023-01-06 21:27:23,887 root            INFO     DTLIGTH
+2023-01-06 21:27:23,895 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 6.8695068359375}
+2023-01-06 21:27:25,222 root            INFO     event:INFO,Blinks:4,COUNTER:9,EAR:0.2739985816284237
+2023-01-06 21:27:25,233 root            CRITICAL DTYAWN
+2023-01-06 21:27:25,246 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.056848278597021934
+2023-01-06 21:27:28,105 root            INFO     Elapsed time: 4.614198923110962 seconds.
+2023-01-06 21:27:28,114 root            INFO     time0:1673040448.114187
+2023-01-06 21:27:28,914 root            INFO     Evento: DTLIGTH
+2023-01-06 21:27:28,921 root            INFO     DTLIGTH
+2023-01-06 21:27:28,943 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTLIGTH", "ILight": 6.8328857421875}
+2023-01-06 21:27:29,839 root            INFO     event:INFO,Blinks:4,COUNTER:10,EAR:0.2804740149627333
+2023-01-06 21:27:29,849 root            CRITICAL DTYAWN
+2023-01-06 21:27:29,856 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.037357264406104235
+2023-01-06 21:27:32,644 root            INFO     Elapsed time: 4.53035831451416 seconds.
+2023-01-06 21:27:32,658 root            INFO     time0:1673040452.6582246
+2023-01-06 21:27:33,978 root            INFO     Evento: DTEATING
+2023-01-06 21:27:33,985 root            INFO     DTEATING
+2023-01-06 21:27:33,998 root            INFO     {"clientid": "Client_01", "action": "DTC", "event": "DTEATING"}
+2023-01-06 21:27:34,316 root            INFO     event:INFO,Blinks:4,COUNTER:11,EAR:0.2570934798496919
+2023-01-06 21:27:34,327 root            CRITICAL DTYAWN
+2023-01-06 21:27:34,337 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.03676384398713375
+2023-01-06 21:27:37,198 root            INFO     Elapsed time: 4.540008068084717 seconds.
+2023-01-06 21:27:37,215 root            INFO     time0:1673040457.2147663
+2023-01-06 21:27:39,105 root            INFO     event:INFO,Blinks:4,COUNTER:12,EAR:0.289049383566382
+2023-01-06 21:27:39,184 root            CRITICAL DTYAWN
+2023-01-06 21:27:39,285 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.07113756836734014
+2023-01-06 21:27:46,571 root            INFO     Elapsed time: 9.356741189956665 seconds.
+2023-01-06 21:27:46,608 root            INFO     time0:1673040466.6086965
+2023-01-06 21:27:48,562 root            INFO     event:INFO,Blinks:4,COUNTER:13,EAR:0.27362907971360895
+2023-01-06 21:27:48,613 root            CRITICAL DTYAWN
+2023-01-06 21:27:48,626 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.058069350407296334
+2023-01-06 21:27:51,480 root            INFO     Elapsed time: 4.8715500831604 seconds.
+2023-01-06 21:27:51,497 root            INFO     time0:1673040471.4971368
+2023-01-06 21:27:53,278 root            INFO     DTBLINK
+2023-01-06 21:27:53,284 root            INFO     event:BLINK,total:5,mtotal:2
+2023-01-06 21:27:53,299 root            INFO     event:INFO,Blinks:5,COUNTER:0,EAR:0.3013881117405476
+2023-01-06 21:27:53,309 root            CRITICAL DTYAWN
+2023-01-06 21:27:53,316 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.06821251184061275
+2023-01-06 21:27:56,178 root            INFO     Elapsed time: 4.680967807769775 seconds.
+2023-01-06 21:27:56,187 root            INFO     time0:1673040476.1870124
+2023-01-06 21:27:57,978 root            INFO     event:INFO,Blinks:5,COUNTER:1,EAR:0.2741753636140819
+2023-01-06 21:27:57,986 root            CRITICAL DTYAWN
+2023-01-06 21:27:57,995 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.06056960991722015
+2023-01-06 21:28:00,859 root            INFO     Elapsed time: 4.672524452209473 seconds.
+2023-01-06 21:28:00,874 root            INFO     time0:1673040480.8731606
+2023-01-06 21:28:02,654 root            INFO     event:INFO,Blinks:5,COUNTER:0,EAR:0.31146200663304646
+2023-01-06 21:28:02,666 root            CRITICAL DTYAWN
+2023-01-06 21:28:02,678 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.07110335793326174
+2023-01-06 21:28:05,458 root            INFO     Elapsed time: 4.585053443908691 seconds.
+2023-01-06 21:28:05,476 root            INFO     time0:1673040485.4763832
+2023-01-06 21:28:07,249 root            INFO     event:INFO,Blinks:5,COUNTER:1,EAR:0.270909029925858
+2023-01-06 21:28:07,260 root            CRITICAL DTYAWN
+2023-01-06 21:28:07,268 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.2634797072110384
+2023-01-06 21:28:10,051 root            INFO     Elapsed time: 4.574589014053345 seconds.
+2023-01-06 21:28:10,067 root            INFO     time0:1673040490.0677967
+2023-01-06 21:28:11,729 root            INFO     event:INFO,Blinks:5,COUNTER:2,EAR:0.22512665717254715
+2023-01-06 21:28:11,737 root            CRITICAL DTYAWN
+2023-01-06 21:28:11,744 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.3934356087273084
+2023-01-06 21:28:14,524 root            INFO     Elapsed time: 4.456811904907227 seconds.
+2023-01-06 21:28:14,540 root            INFO     time0:1673040494.540813
+2023-01-06 21:28:16,327 root            INFO     event:INFO,Blinks:5,COUNTER:3,EAR:0.23692566781504798
+2023-01-06 21:28:16,335 root            CRITICAL DTYAWN
+2023-01-06 21:28:16,343 root            CRITICAL event:INFO,Yawning:2,COUNTER:0,MAR:0.43692682195483035
+2023-01-06 21:28:19,193 root            INFO     Elapsed time: 4.652582168579102 seconds.
+2023-01-06 21:28:19,207 root            INFO     time0:1673040499.2074902
+2023-01-06 21:28:20,991 root            INFO     event:INFO,Blinks:5,COUNTER:4,EAR:0.20795863594930103
+2023-01-06 21:28:21,002 root            INFO     event:Yawning,total:5,mtotal:2
+2023-01-06 21:28:21,012 root            CRITICAL DTYAWN
+2023-01-06 21:28:21,020 root            CRITICAL event:INFO,Yawning:2,COUNTER:1,MAR:0.596250879675078
+2023-01-06 21:28:25,075 root            INFO     Elapsed time: 5.8680901527404785 seconds.
+2023-01-06 21:28:25,088 root            INFO     time0:1673040505.0881364
+2023-01-06 21:28:26,892 root            INFO     event:INFO,Blinks:5,COUNTER:5,EAR:0.29821819068376215
+2023-01-06 21:28:26,902 root            INFO     event:Yawning,total:5,mtotal:2
+2023-01-06 21:28:26,914 root            CRITICAL DTYAWN
+2023-01-06 21:28:26,920 root            CRITICAL event:INFO,Yawning:2,COUNTER:2,MAR:0.5043502605874475
+2023-01-06 21:28:29,712 root            INFO     Elapsed time: 4.623930931091309 seconds.
+2023-01-06 21:28:29,724 root            INFO     time0:1673040509.7247767
+2023-01-06 21:28:31,390 root            INFO     event:INFO,Blinks:5,COUNTER:6,EAR:0.20209682955020633
+2023-01-06 21:28:31,395 root            CRITICAL event:YAWN,total:5,mtotal:3
+2023-01-06 21:28:31,413 root            CRITICAL DTYAWN
+2023-01-06 21:28:31,434 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.09168820402881292
+2023-01-06 21:28:34,328 root            INFO     Elapsed time: 4.603121519088745 seconds.
+2023-01-06 21:28:34,345 root            INFO     time0:1673040514.3450472
+2023-01-06 21:28:36,158 root            INFO     event:INFO,Blinks:5,COUNTER:7,EAR:0.21828232050217586
+2023-01-06 21:28:36,169 root            CRITICAL DTYAWN
+2023-01-06 21:28:36,180 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.039113566487978896
+2023-01-06 21:28:39,078 root            INFO     Elapsed time: 4.733541250228882 seconds.
+2023-01-06 21:28:39,090 root            INFO     time0:1673040519.0901728
+2023-01-06 21:28:40,903 root            INFO     event:INFO,Blinks:5,COUNTER:8,EAR:0.22640098944293502
+2023-01-06 21:28:40,913 root            CRITICAL DTYAWN
+2023-01-06 21:28:40,922 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.28630594809251764
+2023-01-06 21:28:43,717 root            INFO     Elapsed time: 4.627089977264404 seconds.
+2023-01-06 21:28:43,729 root            INFO     time0:1673040523.7292943
+2023-01-06 21:28:45,397 root            INFO     event:INFO,Blinks:5,COUNTER:9,EAR:0.20974748321842474
+2023-01-06 21:28:45,409 root            CRITICAL DTYAWN
+2023-01-06 21:28:45,421 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.08180318165513815
+2023-01-06 21:28:48,307 root            INFO     Elapsed time: 4.5778796672821045 seconds.
+2023-01-06 21:28:48,323 root            INFO     time0:1673040528.323704
+2023-01-06 21:28:49,989 root            INFO     event:INFO,Blinks:5,COUNTER:10,EAR:0.20427284704180976
+2023-01-06 21:28:50,000 root            CRITICAL DTYAWN
+2023-01-06 21:28:50,007 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.047026132638393336
+2023-01-06 21:28:52,921 root            INFO     Elapsed time: 4.5980799198150635 seconds.
+2023-01-06 21:28:52,935 root            INFO     time0:1673040532.935199
+2023-01-06 21:28:54,612 root            INFO     event:INFO,Blinks:5,COUNTER:11,EAR:0.20632918008035328
+2023-01-06 21:28:54,624 root            CRITICAL DTYAWN
+2023-01-06 21:28:54,635 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.11222094909320407
+2023-01-06 21:28:57,532 root            INFO     Elapsed time: 4.596771240234375 seconds.
+2023-01-06 21:28:57,544 root            INFO     time0:1673040537.5441551
+2023-01-06 21:28:59,213 root            INFO     event:INFO,Blinks:5,COUNTER:12,EAR:0.2666053156159566
+2023-01-06 21:28:59,225 root            CRITICAL DTYAWN
+2023-01-06 21:28:59,235 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.11483001538366198
+2023-01-06 21:29:02,257 root            INFO     Elapsed time: 4.713580369949341 seconds.
+2023-01-06 21:29:02,269 root            INFO     time0:1673040542.269713
+2023-01-06 21:29:03,941 root            INFO     event:INFO,Blinks:5,COUNTER:13,EAR:0.265086207421068
+2023-01-06 21:29:03,950 root            CRITICAL DTYAWN
+2023-01-06 21:29:03,956 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.17872456937033193
+2023-01-06 21:29:06,745 root            INFO     Elapsed time: 4.475520372390747 seconds.
+2023-01-06 21:29:06,763 root            INFO     time0:1673040546.7636118
+2023-01-06 21:29:08,407 root            INFO     event:INFO,Blinks:5,COUNTER:14,EAR:0.2500126989753334
+2023-01-06 21:29:08,419 root            CRITICAL DTYAWN
+2023-01-06 21:29:08,427 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.012969524996603018
+2023-01-06 21:29:11,278 root            INFO     Elapsed time: 4.514733791351318 seconds.
+2023-01-06 21:29:11,294 root            INFO     time0:1673040551.2942736
+2023-01-06 21:29:12,955 root            INFO     event:INFO,Blinks:5,COUNTER:15,EAR:0.2581143262320564
+2023-01-06 21:29:12,964 root            CRITICAL DTYAWN
+2023-01-06 21:29:12,971 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.02748608140833373
+2023-01-06 21:29:15,751 root            INFO     Elapsed time: 4.45711088180542 seconds.
+2023-01-06 21:29:15,768 root            INFO     time0:1673040555.768585
+2023-01-06 21:29:17,557 root            INFO     event:INFO,Blinks:5,COUNTER:16,EAR:0.27740020603121146
+2023-01-06 21:29:17,570 root            CRITICAL DTYAWN
+2023-01-06 21:29:17,581 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.028275334803912932
+2023-01-06 21:29:20,366 root            INFO     Elapsed time: 4.597337007522583 seconds.
+2023-01-06 21:29:20,377 root            INFO     time0:1673040560.3778017
+2023-01-06 21:29:22,046 root            INFO     event:INFO,Blinks:5,COUNTER:17,EAR:0.26189704856894697
+2023-01-06 21:29:22,058 root            CRITICAL DTYAWN
+2023-01-06 21:29:22,066 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.019454287494904528
+2023-01-06 21:29:24,912 root            INFO     Elapsed time: 4.534911394119263 seconds.
+2023-01-06 21:29:24,928 root            INFO     time0:1673040564.9279225
+2023-01-06 21:29:26,579 root            INFO     event:INFO,Blinks:5,COUNTER:18,EAR:0.2860897757274862
+2023-01-06 21:29:26,590 root            CRITICAL DTYAWN
+2023-01-06 21:29:26,602 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.028200374464278095
+2023-01-06 21:29:29,451 root            INFO     Elapsed time: 4.52373480796814 seconds.
+2023-01-06 21:29:29,467 root            INFO     time0:1673040569.467137
+2023-01-06 21:29:31,236 root            INFO     event:INFO,Blinks:5,COUNTER:19,EAR:0.241885131242493
+2023-01-06 21:29:31,247 root            CRITICAL DTYAWN
+2023-01-06 21:29:31,256 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.02585830833450049
+2023-01-06 21:29:34,045 root            INFO     Elapsed time: 4.578294515609741 seconds.
+2023-01-06 21:29:34,053 root            INFO     time0:1673040574.053761
+2023-01-06 21:29:35,700 root            INFO     event:INFO,Blinks:5,COUNTER:20,EAR:0.29980547094288723
+2023-01-06 21:29:35,712 root            CRITICAL DTYAWN
+2023-01-06 21:29:35,721 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.02272912084304316
+2023-01-06 21:29:38,574 root            INFO     Elapsed time: 4.520543813705444 seconds.
+2023-01-06 21:29:38,588 root            INFO     time0:1673040578.5883646
+2023-01-06 21:29:40,235 root            INFO     event:INFO,Blinks:5,COUNTER:21,EAR:0.2744862081122814
+2023-01-06 21:29:40,247 root            CRITICAL DTYAWN
+2023-01-06 21:29:40,260 root            CRITICAL event:INFO,Yawning:3,COUNTER:0,MAR:0.013493814503750113

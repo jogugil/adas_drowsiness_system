@@ -1,26 +1,44 @@
 **Librerias utilizadas:**
 
-%matplotlib inline 
-from matplotlib import pyplot as plt
 
-import os
-import cv2
-import dlib
-import time
-import json
-import serial
-import random
-import imutils
-import logging
-import argparse
-import keyboard
-import datetime
-import platform
-import threading
-import numpy as np 
-import tkinter as  tk
-import multiprocessing
-import paho.mqtt.client as paho
+ %matplotlib inline 
+ from matplotlib import pyplot as plt
+
+ import os
+ 
+ import cv2
+ 
+ import dlib
+ 
+ import time
+ 
+ import json
+ 
+ import serial
+ 
+ import random
+ 
+ import imutils
+ 
+ import logging
+ 
+ import argparse
+ 
+ import keyboard
+ 
+ import datetime
+ 
+ import platform
+ 
+ import threading
+ 
+ import numpy as np 
+ 
+ import tkinter as  tk
+ 
+ import multiprocessing
+ 
+ import paho.mqtt.client as paho
 
 
 from paho import mqtt
